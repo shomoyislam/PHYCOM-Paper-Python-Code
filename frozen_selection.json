@@ -1,0 +1,2989 @@
+{
+  "run_id": "f02dc7033958e7f6d7c2dfb965bc730e48b7863f08bf20871f088966ccc35265",
+  "frozen_utc": "2026-09-09T14:43:27.141181+00:00",
+  "selection": "All fits completed; minimum validation MSE. No confirmation test results generated yet.",
+  "checkpoints": [
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "cnn_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/cnn_gate/budget60.pt",
+      "sha256": "531275435725f57bd955f0c473db562659115ae5bf46c1cf9aa8a7c94d2bf313",
+      "selected_epoch": 57,
+      "validation_mse": 0.0514434315264225
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "cnn_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/cnn_gate/best.pt",
+      "sha256": "7b4a845435cb664708276116594c90bdaccd80fb2e1c2ae814b67401095ffa1a",
+      "selected_epoch": 146,
+      "validation_mse": 0.050721801817417145
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "raw_lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/raw_lstm_gate/budget60.pt",
+      "sha256": "8c36a5cbd377515b6bc64f584b3b88b08eacb8fec99cc772c241aa3b2c7932fc",
+      "selected_epoch": 60,
+      "validation_mse": 0.03892095014452934
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "raw_lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/raw_lstm_gate/best.pt",
+      "sha256": "dbce87b71087b6536b425c8ac48c057fa834d98d37d5f745c116645b80cb9910",
+      "selected_epoch": 127,
+      "validation_mse": 0.03879840299487114
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lstm_none/budget60.pt",
+      "sha256": "17ffac3ec1b0ae4acdf7f828dfc17b9c356dc675c971e0a59c39f077589badc1",
+      "selected_epoch": 57,
+      "validation_mse": 0.041549209505319595
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lstm_none/best.pt",
+      "sha256": "c3ba27a67d534d21dafa545bfe9b60a03d46f6f8afb6d55273a4bc4180c0ad51",
+      "selected_epoch": 159,
+      "validation_mse": 0.040555499494075775
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_concat",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lstm_concat/budget60.pt",
+      "sha256": "8d4aa9f29f83a232f6834cd86e1da79b7e37489c92ee600381122498065a6878",
+      "selected_epoch": 60,
+      "validation_mse": 0.041020702570676804
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_concat",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lstm_concat/best.pt",
+      "sha256": "c822b29fb779a534b163603ab35c4a08e08e2e9f0492563b746a3e2cd46ba643",
+      "selected_epoch": 128,
+      "validation_mse": 0.04070231691002846
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_film",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lstm_film/budget60.pt",
+      "sha256": "c1e723d7f8f7d1c2efe466754007be58a2d1922b0cdb80821d042f89e09c917d",
+      "selected_epoch": 60,
+      "validation_mse": 0.04023793339729309
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_film",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lstm_film/best.pt",
+      "sha256": "c8d1e74fb907072117a94387c26fdf1b52bdb42756ba0622f5be575e48ebb4ca",
+      "selected_epoch": 99,
+      "validation_mse": 0.04013793170452118
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lstm_gate/budget60.pt",
+      "sha256": "b6a892c5232231d7b87d699d8cdcb9c3bd009f50d06454081efe9bd0b352445b",
+      "selected_epoch": 54,
+      "validation_mse": 0.03967351093888283
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lstm_gate/best.pt",
+      "sha256": "a08366d57261745c60a81a48b88b708c2a660f911c6d7cd04b84afabb604c743",
+      "selected_epoch": 136,
+      "validation_mse": 0.03893742710351944
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_resgate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lstm_resgate/budget60.pt",
+      "sha256": "c035727db1f4e2a42cdd06518ef3d416fc323e6d98eddefe75922fea9b13a18f",
+      "selected_epoch": 58,
+      "validation_mse": 0.039684928953647614
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_resgate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lstm_resgate/best.pt",
+      "sha256": "809e4e6342abbc44f38b1dc50fc125a0fb75aa7bad12f1bf28148908db45ffee",
+      "selected_epoch": 137,
+      "validation_mse": 0.039121609181165695
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "gru_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/gru_none/budget60.pt",
+      "sha256": "641afc395095bebc5a9f5e6f99ea36e7dc796a33f038f78eba0656fd3d656cc5",
+      "selected_epoch": 59,
+      "validation_mse": 0.041513800621032715
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "gru_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/gru_none/best.pt",
+      "sha256": "efe280e2be4a6ff0eccf2d12cf0ef777784cffdf738b884bd82e43ceb0867457",
+      "selected_epoch": 150,
+      "validation_mse": 0.040811508893966675
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "gru_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/gru_gate/budget60.pt",
+      "sha256": "ef4a1f73187d528eaab6b99d93ee70933f0f41f1775fdb7a29124a0f0b063fbc",
+      "selected_epoch": 58,
+      "validation_mse": 0.039230652153491974
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "gru_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/gru_gate/best.pt",
+      "sha256": "554ef1f4c9ac5ef2f29ae9b48aac2639b074884a9f7de10ee7064931e5157456",
+      "selected_epoch": 128,
+      "validation_mse": 0.038860566914081573
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "mamba_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/mamba_none/budget60.pt",
+      "sha256": "3408581b4b8f086413e6a5cb53c27318ea3cf5d890144f0ec7d68b47e0e3e5f6",
+      "selected_epoch": 58,
+      "validation_mse": 0.04035113751888275
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "mamba_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/mamba_none/best.pt",
+      "sha256": "269f1269d1d3ce9f6212e74acf0b345dabe9fa50d3eeb1167bb0b997448ca0c9",
+      "selected_epoch": 118,
+      "validation_mse": 0.039844293147325516
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "mamba_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/mamba_gate/budget60.pt",
+      "sha256": "1c55b9db322350cb8158d2af7b46e218aae36c2113696aac28b821bbe53fed62",
+      "selected_epoch": 59,
+      "validation_mse": 0.03996214643120766
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/mamba_gate/best.pt",
+      "sha256": "42cf5f7c2806376ffefb7a364b9f6026db8e0232fff66c6ffedb5a9efb14f2eb",
+      "selected_epoch": 136,
+      "validation_mse": 0.03902018442749977
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lsres_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lsres_none/budget60.pt",
+      "sha256": "c2d25dcb158082af06ae8aab8e70f2941ed4cf085bb1fdb17f9bc038edaea5e3",
+      "selected_epoch": 59,
+      "validation_mse": 0.04096775874495506
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lsres_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lsres_none/best.pt",
+      "sha256": "55feb2a2d13cb9eea1dfecf7a121b51945b3ff7b9c8624e94c21284fc2706596",
+      "selected_epoch": 95,
+      "validation_mse": 0.04084930196404457
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lsres_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lsres_gate/budget60.pt",
+      "sha256": "f4a87a78bbfc4e16cb58606ec4a9a3c54bad91015fa9bfcb0db177b936d0a1d8",
+      "selected_epoch": 58,
+      "validation_mse": 0.039585135877132416
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed42/lsres_gate/best.pt",
+      "sha256": "3aa404b6c06843dc78f84a00d5bc96a2b5d91109ddaeddd25827f164e2888c91",
+      "selected_epoch": 79,
+      "validation_mse": 0.03954955190420151
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "cnn_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/cnn_gate/budget60.pt",
+      "sha256": "533dc4fca004a1e3c71fb278a92ae9c2d09f425d54cd7aa99fd1226a6964d4be",
+      "selected_epoch": 57,
+      "validation_mse": 0.05121324211359024
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "cnn_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/cnn_gate/best.pt",
+      "sha256": "8d6f74101a483421362815156228495bc08a3fc922e5e8959bfb098ca3af1fbf",
+      "selected_epoch": 143,
+      "validation_mse": 0.0504293218255043
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "raw_lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/raw_lstm_gate/budget60.pt",
+      "sha256": "fff00796887aeb3ba68cf3eb1d0c7d6eb9761e7359580a0a80bc0e001880782d",
+      "selected_epoch": 60,
+      "validation_mse": 0.038307566195726395
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "raw_lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/raw_lstm_gate/best.pt",
+      "sha256": "12b6f5d44584407b05267905edc8adea94ed41ac266a53ff04c799807b64c3d6",
+      "selected_epoch": 114,
+      "validation_mse": 0.03812907263636589
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lstm_none/budget60.pt",
+      "sha256": "8e6b56c38135545b56670a8a312031560be2263e8c1a9dc86fc55d9c085b01fe",
+      "selected_epoch": 56,
+      "validation_mse": 0.04094595089554787
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lstm_none/best.pt",
+      "sha256": "68310746364aba1eda32ed01adc999d5c03b75460a39d4a1b15934fd36dfc9c0",
+      "selected_epoch": 142,
+      "validation_mse": 0.04033547267317772
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_concat",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lstm_concat/budget60.pt",
+      "sha256": "c5445e9308d531c91eadee6fa32258286c4b3499a2cdcdb1d2a5717d4a6c6598",
+      "selected_epoch": 56,
+      "validation_mse": 0.040629465132951736
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_concat",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lstm_concat/best.pt",
+      "sha256": "44a1b59c29d19ff780768ac90e548341646a57f5416c83f5f7fb9b7aca5b2f51",
+      "selected_epoch": 142,
+      "validation_mse": 0.04010782018303871
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_film",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lstm_film/budget60.pt",
+      "sha256": "1345376cc5fc8f8689d52416e4843ecb48aedd9871b4697d3247b589ab983ad2",
+      "selected_epoch": 60,
+      "validation_mse": 0.039580509066581726
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_film",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lstm_film/best.pt",
+      "sha256": "736d555ccfd4a829281c65afffe3a714855db8ef601efbbf38fc0fe9d9e1c588",
+      "selected_epoch": 114,
+      "validation_mse": 0.03932655230164528
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lstm_gate/budget60.pt",
+      "sha256": "952e29711672a6e8349773882e342c9051178a9225032d7db1c22187b10293f5",
+      "selected_epoch": 55,
+      "validation_mse": 0.03854503110051155
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lstm_gate/best.pt",
+      "sha256": "6c1f9e35b08619dad6cc8990b49023abab6e3ed43226f432f600de9c18e9279b",
+      "selected_epoch": 119,
+      "validation_mse": 0.0383264422416687
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_resgate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lstm_resgate/budget60.pt",
+      "sha256": "030c96e4232648b4ff186c099723618d865af7ff2cf733684b71974108ac0dcd",
+      "selected_epoch": 59,
+      "validation_mse": 0.039506830275058746
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_resgate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lstm_resgate/best.pt",
+      "sha256": "10d2d6c0c7bd58657634c326579d557cbbb01c2cf42b6153734a704746e4fda7",
+      "selected_epoch": 148,
+      "validation_mse": 0.038472067564725876
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "gru_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/gru_none/budget60.pt",
+      "sha256": "5130562b07d18b890a7ebc84d182e150e514fe63ee5ee38f4adf3acbe3a60e08",
+      "selected_epoch": 54,
+      "validation_mse": 0.04095841199159622
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "gru_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/gru_none/best.pt",
+      "sha256": "c8682fba4e219055824a8927a9d5a0923b382411690dc516c9d64e5c67646af6",
+      "selected_epoch": 114,
+      "validation_mse": 0.040372081100940704
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "gru_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/gru_gate/budget60.pt",
+      "sha256": "7e06a33358c80c9b7c71dc5452c9465a57c4638944dceb0c3350f9571c1cc708",
+      "selected_epoch": 56,
+      "validation_mse": 0.03874389827251434
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "gru_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/gru_gate/best.pt",
+      "sha256": "eb1ad37f93e7a66c818868486114417ae7d423c9770b73f8c02676ee9d6a87b2",
+      "selected_epoch": 139,
+      "validation_mse": 0.038308799266815186
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "mamba_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/mamba_none/budget60.pt",
+      "sha256": "c780d27489da2ba4a307ce8998c753446db3f2311a0972afc8aeb499d9af8445",
+      "selected_epoch": 60,
+      "validation_mse": 0.03962581232190132
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "mamba_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/mamba_none/best.pt",
+      "sha256": "caf3e461266a1cfd1262ef7f9ff6af51e52c3ed77c9e7f1a897da1c7af1f4ec9",
+      "selected_epoch": 114,
+      "validation_mse": 0.039361950010061264
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "mamba_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/mamba_gate/budget60.pt",
+      "sha256": "bbfdde01f706e826ea2dc86fe3b771e359792e5ee8a7ce8352eabfe6f0ecaa6e",
+      "selected_epoch": 58,
+      "validation_mse": 0.039225250482559204
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/mamba_gate/best.pt",
+      "sha256": "686973f6a9572c955d6ca7f61499cc16603c17f7ae5a04afc3177a9703806da0",
+      "selected_epoch": 153,
+      "validation_mse": 0.03843621909618378
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lsres_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lsres_none/budget60.pt",
+      "sha256": "75d274b4a3a3efaa1f940ba551ee24163403f1aac932c367afddf5ee1da0885a",
+      "selected_epoch": 57,
+      "validation_mse": 0.040352195501327515
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lsres_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lsres_none/best.pt",
+      "sha256": "36142cc929d205c2c6990427aeb47546b119952a9161a0fed861bbc5f13b7221",
+      "selected_epoch": 114,
+      "validation_mse": 0.03988856077194214
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lsres_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lsres_gate/budget60.pt",
+      "sha256": "790335c62afc51fb20bf5e81d1aa9893516382edd578055b7c0aec953855cb22",
+      "selected_epoch": 55,
+      "validation_mse": 0.039023257791996
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed123/lsres_gate/best.pt",
+      "sha256": "842ad745ffe6bb48f1be32c91033c2d159502c8ba71ce4072d5f3b49a18cc2ed",
+      "selected_epoch": 82,
+      "validation_mse": 0.038899198174476624
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "cnn_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/cnn_gate/budget60.pt",
+      "sha256": "710f8fc9698396ee68e1b0309b6ca61f673a3aae29048d052d03ea474f50b2a6",
+      "selected_epoch": 60,
+      "validation_mse": 0.05092522129416466
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "cnn_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/cnn_gate/best.pt",
+      "sha256": "fadd334674c3ed1bb238782df676657cb13cbaf0011d67850c94996dd5f335b5",
+      "selected_epoch": 157,
+      "validation_mse": 0.04980114474892616
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "raw_lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/raw_lstm_gate/budget60.pt",
+      "sha256": "3ffacfb4cd14915681e83b9bd793759c9dc9e80b2c55f2a65226dd7ba2b7e2b6",
+      "selected_epoch": 56,
+      "validation_mse": 0.03813420981168747
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "raw_lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/raw_lstm_gate/best.pt",
+      "sha256": "3286c2b07c63feb999c3013b1f943c9769bead8145722dac9236f0ce9e111357",
+      "selected_epoch": 137,
+      "validation_mse": 0.03785889595746994
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lstm_none/budget60.pt",
+      "sha256": "d8d66468bf86a9d53a26e3577e4a493dbc48dc616e31dbf88f864f646d7afd9c",
+      "selected_epoch": 57,
+      "validation_mse": 0.040367163717746735
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lstm_none/best.pt",
+      "sha256": "30465b335d3859d51a2eadd139ec4b25d1d63cb0924c236d058e8d6b229dd6b8",
+      "selected_epoch": 120,
+      "validation_mse": 0.039875853806734085
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_concat",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lstm_concat/budget60.pt",
+      "sha256": "60705239ddaaa4c72069f66a3426f263784ecfe52228f2e0e74da6693224c3df",
+      "selected_epoch": 57,
+      "validation_mse": 0.04033453390002251
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_concat",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lstm_concat/best.pt",
+      "sha256": "c1fdaa2961a00de537d2164760dbcbf7b3be1424fc42c358e1f8fe117359bc04",
+      "selected_epoch": 128,
+      "validation_mse": 0.03988286480307579
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_film",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lstm_film/budget60.pt",
+      "sha256": "6243578e24033b84f235237f5fe3ecda5d400a9a470124d56298c9b5a2dc7a24",
+      "selected_epoch": 57,
+      "validation_mse": 0.03945315256714821
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_film",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lstm_film/best.pt",
+      "sha256": "b9be0e08f315290caf22fe169a01bc3a59bdc9c190ddd9218b36facc0463d7a7",
+      "selected_epoch": 128,
+      "validation_mse": 0.03904193639755249
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lstm_gate/budget60.pt",
+      "sha256": "e8841478de7212b742c86759d8d5b61864e1c950f21a0d2da71e138a06ad8ab4",
+      "selected_epoch": 57,
+      "validation_mse": 0.038379304111003876
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lstm_gate/best.pt",
+      "sha256": "1b9a62d5fa985971ace6f9697afc2ad08af47e368bc0ebebf9a77b40fd472545",
+      "selected_epoch": 120,
+      "validation_mse": 0.038041118532419205
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_resgate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lstm_resgate/budget60.pt",
+      "sha256": "4fd6ee0d15dcadf12b21c7c2ebd97c46aa6972940a468b12f94a2828f4cb8b8d",
+      "selected_epoch": 57,
+      "validation_mse": 0.038776945322752
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_resgate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lstm_resgate/best.pt",
+      "sha256": "294d1f9337ed21fbb61e27532cfd733242c61a3716dc47253e801d93ee2a3d4c",
+      "selected_epoch": 158,
+      "validation_mse": 0.03824822977185249
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "gru_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/gru_none/budget60.pt",
+      "sha256": "c14ded2bb8008e97f583cf3a7eb3b07a48477032e68e0be95db9ae2ad80341b1",
+      "selected_epoch": 55,
+      "validation_mse": 0.04060661047697067
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "gru_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/gru_none/best.pt",
+      "sha256": "f0e60f4b86e0d0a6651ba3abc6fe44241eaca6649bc1b535c24e626feca5de53",
+      "selected_epoch": 136,
+      "validation_mse": 0.039800629019737244
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "gru_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/gru_gate/budget60.pt",
+      "sha256": "4fe23798d1df2e188630c99fb807ab657638d09442120cc27abcfdffa08bd096",
+      "selected_epoch": 55,
+      "validation_mse": 0.038292523473501205
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "gru_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/gru_gate/best.pt",
+      "sha256": "fbfc17166dc7f262c0598809e0d07e950906d31db714856062d500b524ff872d",
+      "selected_epoch": 119,
+      "validation_mse": 0.0379602424800396
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "mamba_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/mamba_none/budget60.pt",
+      "sha256": "51ce1bc4068f6c7e4e8851c8af1013c27954698186664bb0ecbe32b34a5cb80b",
+      "selected_epoch": 56,
+      "validation_mse": 0.03938540071249008
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "mamba_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/mamba_none/best.pt",
+      "sha256": "85bfc0a259cbd3ebf2662c92a7784a043c5a009da1fcbd3d3e7848ce622eb980",
+      "selected_epoch": 128,
+      "validation_mse": 0.039059676229953766
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "mamba_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/mamba_gate/budget60.pt",
+      "sha256": "8b8568497df58270cf94de09f16dbfd7b36aefb5e9d427a4b9b7a05f37d24884",
+      "selected_epoch": 56,
+      "validation_mse": 0.03843982517719269
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/mamba_gate/best.pt",
+      "sha256": "b28160976f4586af92e7603aab6e8234443a21af23025cd34d04b85958e6d033",
+      "selected_epoch": 128,
+      "validation_mse": 0.038096144795417786
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lsres_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lsres_none/budget60.pt",
+      "sha256": "3129a22eed55c5326bcb8f215bed60e38d08482c1f1836f8307388474f3873da",
+      "selected_epoch": 57,
+      "validation_mse": 0.03996289148926735
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lsres_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lsres_none/best.pt",
+      "sha256": "a46b8ebb887629126d93ab53f8dae090a3a11698cb5a64f43006d2d856bf576b",
+      "selected_epoch": 98,
+      "validation_mse": 0.039734210819005966
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lsres_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lsres_gate/budget60.pt",
+      "sha256": "6a8213862c27c57647dbe5fcf2dbc1a0e684efec88d17e0fd563a6df6a863a8f",
+      "selected_epoch": 57,
+      "validation_mse": 0.03859887644648552
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_2x2_T5_seed2024/lsres_gate/best.pt",
+      "sha256": "0bb41acf881cb6b3e27edb52d5c064d364b453b01a400fe41a5457ee9b9bb730",
+      "selected_epoch": 66,
+      "validation_mse": 0.038580235093832016
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "cnn_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/cnn_gate/budget60.pt",
+      "sha256": "442877a202e62f5e5965d487c592646e506f4bc8d4750cd91079e2b34604bbee",
+      "selected_epoch": 60,
+      "validation_mse": 0.06550236791372299
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "cnn_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/cnn_gate/best.pt",
+      "sha256": "ce9c5861c08ceaf42a1ea3bf2308bbf0b7574b5240abccfaf438d80dc525aec4",
+      "selected_epoch": 126,
+      "validation_mse": 0.06512336432933807
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "raw_lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/raw_lstm_gate/budget60.pt",
+      "sha256": "4248d771bb703eb9bea251ce3e3188592366bf5c6e4e160a36a3b0abb7d37e83",
+      "selected_epoch": 59,
+      "validation_mse": 0.044113971292972565
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "raw_lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/raw_lstm_gate/best.pt",
+      "sha256": "6609d6a690082c1bd6d459426a83ba96aae17417a2f8647556a33f39810d2218",
+      "selected_epoch": 191,
+      "validation_mse": 0.04254182055592537
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_none/budget60.pt",
+      "sha256": "0d4cf507e0746df540202a6a0c31773c2fbbd94eb7367387c18dea7f106ed1d0",
+      "selected_epoch": 60,
+      "validation_mse": 0.060920946300029755
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_none/best.pt",
+      "sha256": "45ba7dc58aed0ebd8e24b2a59c968eab2a69616458998634f629cc922042b634",
+      "selected_epoch": 196,
+      "validation_mse": 0.05753480643033981
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_concat",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_concat/budget60.pt",
+      "sha256": "ff5e747550939cd9f42977d659157204937b9099a9a1c4ca1fed4f751b570172",
+      "selected_epoch": 60,
+      "validation_mse": 0.07503502070903778
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_concat",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_concat/best.pt",
+      "sha256": "82802fe3a46cd97304e6b272d6c92c0c69bdd8d1715e01723017709369c3d1a4",
+      "selected_epoch": 226,
+      "validation_mse": 0.07223421335220337
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_film",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_film/budget60.pt",
+      "sha256": "313207182a7afd58d4fac4464ab97a53319ad12491f91a12dd49084318926e67",
+      "selected_epoch": 60,
+      "validation_mse": 0.08036815375089645
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_film",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_film/best.pt",
+      "sha256": "8515aca9cbeb504407ffe8cc241b785fa8de52a6ad811a6e3aed2f827d290dc6",
+      "selected_epoch": 218,
+      "validation_mse": 0.07170623540878296
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_gate/budget60.pt",
+      "sha256": "5baaa16e621aaf6fe09f6402d815d049b933c1c7ab5daeadf2f5f99843bd92e0",
+      "selected_epoch": 56,
+      "validation_mse": 0.08577997982501984
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_gate/best.pt",
+      "sha256": "5b5f5490693ac0df3b46f135fc3bc4339c40d38e579e9447978899c4a0d3fdd0",
+      "selected_epoch": 157,
+      "validation_mse": 0.08420806378126144
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_resgate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_resgate/budget60.pt",
+      "sha256": "553e5b2ddeac0bf69c91e3a9282a427725b4e9fca95be9f4f896c25d8355c3ec",
+      "selected_epoch": 60,
+      "validation_mse": 0.059377215802669525
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_resgate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_resgate/best.pt",
+      "sha256": "5a39fffbd32c3362e46089a51063988307e03e55ed540c644fc2d00bf76936d9",
+      "selected_epoch": 170,
+      "validation_mse": 0.056307971477508545
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "gru_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/gru_none/budget60.pt",
+      "sha256": "73cede8a9ff7dd8294a0bfbaf49d4c09a848d54ba9214e85c781c8b924ad8f21",
+      "selected_epoch": 59,
+      "validation_mse": 0.06355304270982742
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "gru_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/gru_none/best.pt",
+      "sha256": "9ef671e8be30196c5a15c5f4ee3b2839848bcd9b4b3359946226612131b59283",
+      "selected_epoch": 218,
+      "validation_mse": 0.05947241559624672
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "gru_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/gru_gate/budget60.pt",
+      "sha256": "146b4384a6f2f1b085c6f3e33ef4ed4d95e5c76d2dcafe88cf9e8b339b933e54",
+      "selected_epoch": 58,
+      "validation_mse": 0.06154092401266098
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "gru_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/gru_gate/best.pt",
+      "sha256": "95e8ed171dd496412adc57fca35b6fe70f395e1fbde72cb0452e0c1f440cb489",
+      "selected_epoch": 240,
+      "validation_mse": 0.048465415835380554
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "mamba_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/mamba_none/budget60.pt",
+      "sha256": "00b6c2772da96c098f1c3a482a10e2b047afcbb37ce269bc078f8a48e71abfbe",
+      "selected_epoch": 59,
+      "validation_mse": 0.0715443566441536
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "mamba_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/mamba_none/best.pt",
+      "sha256": "8a2be42fbfda5c66fd762b4275c90fc23646699143c844d1b062a7a623e4e507",
+      "selected_epoch": 159,
+      "validation_mse": 0.07016175985336304
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "mamba_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/mamba_gate/budget60.pt",
+      "sha256": "21843879cb75b646bff090fb9f26dad820be16dfe36e17f2c7a90716f4c4c07e",
+      "selected_epoch": 60,
+      "validation_mse": 0.05930616334080696
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/mamba_gate/best.pt",
+      "sha256": "413b6fe4efdbaa05fc433e1cc6fd2d557404f32d58effe40e57ca29192953769",
+      "selected_epoch": 196,
+      "validation_mse": 0.056060705333948135
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lsres_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lsres_none/budget60.pt",
+      "sha256": "a0b15b7733d27c179e69dd46ee34a5a95699c1d6e84aec6acb5667824fa9278d",
+      "selected_epoch": 60,
+      "validation_mse": 0.05109703913331032
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lsres_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lsres_none/best.pt",
+      "sha256": "3d604519a0da701bb21705f5c535ec3facda203c3f2ef2276ca584bf4f8bb3c3",
+      "selected_epoch": 215,
+      "validation_mse": 0.04726478457450867
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lsres_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lsres_gate/budget60.pt",
+      "sha256": "14b8ada5f71913db9daad0c8109fd09005f68a0587786165266a12a1761e416f",
+      "selected_epoch": 60,
+      "validation_mse": 0.04956124722957611
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lsres_gate/best.pt",
+      "sha256": "e066e05e40e8fb68cfa647630f0fd49512a4d9d127572310747ed460692c0a67",
+      "selected_epoch": 215,
+      "validation_mse": 0.0471317321062088
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_wide_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_wide_none/budget60.pt",
+      "sha256": "2922a6c63cbd687341bcbd62248d3b5772edd32819f3ec927ce71c327c49421e",
+      "selected_epoch": 57,
+      "validation_mse": 0.05956504866480827
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_wide_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_wide_none/best.pt",
+      "sha256": "6149c5ff576ea50ba9274ecce1f5e3bf254e625dc39ccd666b6d0a929481471a",
+      "selected_epoch": 195,
+      "validation_mse": 0.058150388300418854
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_wide_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_wide_gate/budget60.pt",
+      "sha256": "02e2ccad1bf74a90f20823d88139517ed43f379e3c2ed3a1f5e628b93dfbf280",
+      "selected_epoch": 60,
+      "validation_mse": 0.057589091360569
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_wide_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed42/lstm_wide_gate/best.pt",
+      "sha256": "e89ea62e21ac4821e3cd9559390c36c4bce943fe20c604553724b8088f986718",
+      "selected_epoch": 196,
+      "validation_mse": 0.05608015134930611
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "cnn_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/cnn_gate/budget60.pt",
+      "sha256": "43e3a75bb057715ff460ced24a1d734c7e8e3bd753fa7eea1750dacbe092ae0c",
+      "selected_epoch": 60,
+      "validation_mse": 0.05119692161679268
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "cnn_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/cnn_gate/best.pt",
+      "sha256": "dde9f8214fd2c2ee50246b116e1314900cdc6badad813ba41128c93b5d749bd8",
+      "selected_epoch": 157,
+      "validation_mse": 0.05066973716020584
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "raw_lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/raw_lstm_gate/budget60.pt",
+      "sha256": "617d8f014785c91eccd19a8107d25b718cc93946f6a6e2e5e01a2c834c5fb29a",
+      "selected_epoch": 60,
+      "validation_mse": 0.046832241117954254
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "raw_lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/raw_lstm_gate/best.pt",
+      "sha256": "7fe1924bc6976c1dda0fdc090a7e4cdbaf68b7224a50243266195baaa3891651",
+      "selected_epoch": 239,
+      "validation_mse": 0.04284479469060898
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_none/budget60.pt",
+      "sha256": "4fcd9446b7afa37344af23d9723cd5960d82e315fee3c60dc8d76149b9798aee",
+      "selected_epoch": 60,
+      "validation_mse": 0.07554203271865845
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_none/best.pt",
+      "sha256": "fa981b223604d37f4e9ceba7f0e3d2edf09d64626e0778365cca8751e2a96404",
+      "selected_epoch": 222,
+      "validation_mse": 0.05700702220201492
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_concat",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_concat/budget60.pt",
+      "sha256": "bed9a2a81cea9b6ec3354057581b212e04f91c867cde32a3b19a14ed88c252d1",
+      "selected_epoch": 59,
+      "validation_mse": 0.08876574784517288
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_concat",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_concat/best.pt",
+      "sha256": "dbf55683e0551270cd7e93030d4137c696eaa8aaa9bac88bf5ba610f5c962fdc",
+      "selected_epoch": 212,
+      "validation_mse": 0.08599819242954254
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_film",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_film/budget60.pt",
+      "sha256": "3981eadbe2b613b8cd5b4c6a8feb8ca4dc157e9ecf62bb0a133534c7a4242089",
+      "selected_epoch": 56,
+      "validation_mse": 0.08677937090396881
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_film",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_film/best.pt",
+      "sha256": "a703df7726b2f333ed13fae0a53158fcdfc301ce052b22fa4bf96d2bf345ba78",
+      "selected_epoch": 172,
+      "validation_mse": 0.0708126500248909
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_gate/budget60.pt",
+      "sha256": "e8f1f1c4cec53db75c6c7d7fa2083be4d725fe59a1a36f8353e2baca858fdaf9",
+      "selected_epoch": 60,
+      "validation_mse": 0.05892130732536316
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_gate/best.pt",
+      "sha256": "b837a788418fd9b76d27ee3f655cd8c36674e9a62a55961e55e493fe505dcf19",
+      "selected_epoch": 190,
+      "validation_mse": 0.055462632328271866
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_resgate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_resgate/budget60.pt",
+      "sha256": "6851587be7bc9a103c18f04920ce94ceba315cac386a624b5ead8c6ffd14a6fc",
+      "selected_epoch": 59,
+      "validation_mse": 0.05910569801926613
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_resgate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_resgate/best.pt",
+      "sha256": "f219acb213d778fd569bb690fe9ec8043af0125c6e040f037359f489c45e70f1",
+      "selected_epoch": 190,
+      "validation_mse": 0.056197378784418106
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "gru_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/gru_none/budget60.pt",
+      "sha256": "93bf92e67bd78ab72bb692503480f355b0c97f8088fc4ea0587537adb8756807",
+      "selected_epoch": 57,
+      "validation_mse": 0.06165635213255882
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "gru_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/gru_none/best.pt",
+      "sha256": "db062feacf6121733ac62d396b5bb2333759dc64c2a177b46982e9de62db98ce",
+      "selected_epoch": 190,
+      "validation_mse": 0.05994690954685211
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "gru_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/gru_gate/budget60.pt",
+      "sha256": "9e86527ee3ab61f9c1970b4aaca2ce9b1c127b2cee0dc448983e5f4667119297",
+      "selected_epoch": 55,
+      "validation_mse": 0.0591474287211895
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "gru_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/gru_gate/best.pt",
+      "sha256": "a59d99ddee8e0184cc972631864f1cf5189bafba5d189b1b1ea0aca3d6ae6815",
+      "selected_epoch": 170,
+      "validation_mse": 0.05755063146352768
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "mamba_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/mamba_none/budget60.pt",
+      "sha256": "8983037753bb507defe2361f54ccbd8abd4dec9e43834789a6438316287819c9",
+      "selected_epoch": 59,
+      "validation_mse": 0.06060919538140297
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "mamba_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/mamba_none/best.pt",
+      "sha256": "0061f2cd613cb1385eaf6d2c58008ae1800e71dda3717be8825c59c7bfcc29b7",
+      "selected_epoch": 216,
+      "validation_mse": 0.05611235275864601
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "mamba_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/mamba_gate/budget60.pt",
+      "sha256": "831f7a055ed5dacfc12c2eb239373fb9ee201874a2d594d14fec5630e5935868",
+      "selected_epoch": 60,
+      "validation_mse": 0.060512375086545944
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/mamba_gate/best.pt",
+      "sha256": "73c0840453de4255fe0cf99fcc95482a88197fe2745bc6217ea7520bf6c55d75",
+      "selected_epoch": 191,
+      "validation_mse": 0.0565539225935936
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lsres_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lsres_none/budget60.pt",
+      "sha256": "f73aed339ff4601ce55815777a9061b3d7decbbb585560549b59d405761c02d7",
+      "selected_epoch": 60,
+      "validation_mse": 0.05176416411995888
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lsres_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lsres_none/best.pt",
+      "sha256": "2b0c99e6fb514c9d8d9974695b83fe4a9ab5c0506d599bd50fd65c8ff0d98b3a",
+      "selected_epoch": 239,
+      "validation_mse": 0.047168929129838943
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lsres_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lsres_gate/budget60.pt",
+      "sha256": "d3840ff7b58446b47cc347e1a6df44c2c23ba4d9d648c294e198ff8f74f51101",
+      "selected_epoch": 59,
+      "validation_mse": 0.05050164833664894
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lsres_gate/best.pt",
+      "sha256": "5f6ea06a5cef11c9dcc4a2b08fcc77c5ba47b8b43dfc058e795a78eba40bb303",
+      "selected_epoch": 237,
+      "validation_mse": 0.04510541632771492
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_wide_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_wide_none/budget60.pt",
+      "sha256": "56e3eb40851a4e797c3c2836dc3082d7359c64eef7a0e9e6e35f7ff47d6613bb",
+      "selected_epoch": 60,
+      "validation_mse": 0.060491837561130524
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_wide_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_wide_none/best.pt",
+      "sha256": "2f63077d4d94e590d586a12bb9e52bf1b7da98c34dc1dcd06202ae18fa7a8ce8",
+      "selected_epoch": 222,
+      "validation_mse": 0.05834979563951492
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_wide_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_wide_gate/budget60.pt",
+      "sha256": "96070c7589bf582bbad6ecd2e64bc864250df68d958a270a72adda65812359e0",
+      "selected_epoch": 60,
+      "validation_mse": 0.05766541510820389
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_wide_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed123/lstm_wide_gate/best.pt",
+      "sha256": "1d80ea61d9528e48f267077c2ae8995f8854186e434c9b0cadd2895a15e930dd",
+      "selected_epoch": 190,
+      "validation_mse": 0.05523146688938141
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "cnn_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/cnn_gate/budget60.pt",
+      "sha256": "a41b1ace07474e38f2d45d063eb49f0218c5222b0e28e7a9f8a8df676624cba2",
+      "selected_epoch": 59,
+      "validation_mse": 0.050854217261075974
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "cnn_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/cnn_gate/best.pt",
+      "sha256": "ad19c352a38d657ce8276f51f6cddcc94eb7b759d0d790b8340fb898b789b58a",
+      "selected_epoch": 120,
+      "validation_mse": 0.050492431968450546
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "raw_lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/raw_lstm_gate/budget60.pt",
+      "sha256": "7a34ff914c149496d0f2041bc937293af2194aff3c92438d54ccbed8ce8825dc",
+      "selected_epoch": 60,
+      "validation_mse": 0.04429192841053009
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "raw_lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/raw_lstm_gate/best.pt",
+      "sha256": "608eb489c39374497b3c6f644d090aea55ff0e9e37a758fe13e2ea4c909369e0",
+      "selected_epoch": 239,
+      "validation_mse": 0.04223809018731117
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_none/budget60.pt",
+      "sha256": "c580c7540e74765be2b8c830e84bc761e3296e3a9b92487f33276f4538b44cde",
+      "selected_epoch": 60,
+      "validation_mse": 0.07452879846096039
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_none/best.pt",
+      "sha256": "a7fec31b18667bfddeb506fd75ac37936d82f54fa08f50e113fc42fc3eb2f01b",
+      "selected_epoch": 232,
+      "validation_mse": 0.05643639340996742
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_concat",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_concat/budget60.pt",
+      "sha256": "f4cf0e7b0718d49124ccbb8c2a082fb3ecbe363b19d53e72c9c4a5f9a0bdbcc7",
+      "selected_epoch": 60,
+      "validation_mse": 0.0763280913233757
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_concat",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_concat/best.pt",
+      "sha256": "a75abf0165aefca1b847f980a966ccf8ce9e0e9bb6c6966a7e86be4887baf78c",
+      "selected_epoch": 198,
+      "validation_mse": 0.07078181952238083
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_film",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_film/budget60.pt",
+      "sha256": "65dd128d7e7a4439fd56b779113a16026ef198be983486d5a0dd816f289c5e61",
+      "selected_epoch": 60,
+      "validation_mse": 0.09226071834564209
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_film",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_film/best.pt",
+      "sha256": "20a76138fd3190fc30ef14c249364364088ec81f4122af50cd4d2fd12572d56e",
+      "selected_epoch": 176,
+      "validation_mse": 0.08559288829565048
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_gate/budget60.pt",
+      "sha256": "a7f69f736efa7004d9d86bf58c56b341ca8068aa8d8291635c68bd2a223e459f",
+      "selected_epoch": 54,
+      "validation_mse": 0.08537252247333527
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_gate/best.pt",
+      "sha256": "06cb54b2f9b33e8720c8938eee8016d5a6773e62f4fd960740c2b81409a43d0f",
+      "selected_epoch": 135,
+      "validation_mse": 0.08456895500421524
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_resgate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_resgate/budget60.pt",
+      "sha256": "31f1468ca86bf1ea8baff703a41b8052e32d3309c3a9b65cba5ad3b57a4574ad",
+      "selected_epoch": 59,
+      "validation_mse": 0.07113330066204071
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_resgate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_resgate/best.pt",
+      "sha256": "5db5a310a259024927414f9ca6021d6b6528b3e246df272141cd59ed8e26c9cf",
+      "selected_epoch": 188,
+      "validation_mse": 0.05603434145450592
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "gru_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/gru_none/budget60.pt",
+      "sha256": "8bdfd7a53c2d6e279fe5c98f1cabc83f1ff1ff9dcca192a5f7ef2e2fb238db53",
+      "selected_epoch": 59,
+      "validation_mse": 0.061625853180885315
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "gru_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/gru_none/best.pt",
+      "sha256": "241e0cc29453f515e28ea679df2080b373590cfa6f193542ffd259043b4afa64",
+      "selected_epoch": 216,
+      "validation_mse": 0.058525070548057556
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "gru_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/gru_gate/budget60.pt",
+      "sha256": "3dddc7a76ead3732dd42c62325a12095ecc38fd4f490f00e089dcf82541fb482",
+      "selected_epoch": 60,
+      "validation_mse": 0.060266416519880295
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "gru_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/gru_gate/best.pt",
+      "sha256": "b8df05265083f72c9e6468f6ab05f9adc7b34e17a117188dedba604b003d4962",
+      "selected_epoch": 188,
+      "validation_mse": 0.05712216719985008
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "mamba_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/mamba_none/budget60.pt",
+      "sha256": "4233b41509e4a79dfef4e60b982f105d6a2ff6514096c4abc8c14a66ff87045b",
+      "selected_epoch": 57,
+      "validation_mse": 0.08683750033378601
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "mamba_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/mamba_none/best.pt",
+      "sha256": "889ba7bac29b407eeb492e39a0a586fbd5a3ca11e2f7d47eee4d9aeec59466f1",
+      "selected_epoch": 172,
+      "validation_mse": 0.08561880141496658
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "mamba_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/mamba_gate/budget60.pt",
+      "sha256": "aae3b7bb2a7124fa0b4470762fe91c369493ed9a3d8804c441bdbe51266839f7",
+      "selected_epoch": 59,
+      "validation_mse": 0.0606037937104702
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/mamba_gate/best.pt",
+      "sha256": "961e68038c044b4e24f28da543ba06a6777602976053c5e9d01c939925c44538",
+      "selected_epoch": 216,
+      "validation_mse": 0.0557423010468483
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lsres_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lsres_none/budget60.pt",
+      "sha256": "7faed43cb72a6a253b97cf51d61cd74148692e71dda748eab4b85395ee652d5a",
+      "selected_epoch": 60,
+      "validation_mse": 0.0510147400200367
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lsres_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lsres_none/best.pt",
+      "sha256": "e8053884ab723f8d043a47c17a9d18a290f6156231ea21ea134d4f01005ea314",
+      "selected_epoch": 169,
+      "validation_mse": 0.04876336082816124
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lsres_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lsres_gate/budget60.pt",
+      "sha256": "e2a02169ea1d995606d02bae350d8819489cb281f3bd4a497b43a38a472e413f",
+      "selected_epoch": 60,
+      "validation_mse": 0.051232706755399704
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lsres_gate/best.pt",
+      "sha256": "578d9ec3990b9c91da33aa0ecf5d7da82ceacfc5d3bbcff040fbaa314b503089",
+      "selected_epoch": 236,
+      "validation_mse": 0.0461178682744503
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_wide_none",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_wide_none/budget60.pt",
+      "sha256": "d1e3a5af440b3a45bed2bc73cfc91f5c21589772daa00638cc96408d343787fa",
+      "selected_epoch": 60,
+      "validation_mse": 0.06063324585556984
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_wide_none",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_wide_none/best.pt",
+      "sha256": "92d077d529ad854ae91ac32e8ad52a87616c263f9b32d5be550bce1759201c10",
+      "selected_epoch": 149,
+      "validation_mse": 0.058839306235313416
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_wide_gate",
+      "stage": "budget60",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_wide_gate/budget60.pt",
+      "sha256": "ef2d2d3683d996d1424eba06bf26e21dc388f18228b55befa3c260ca89152662",
+      "selected_epoch": 60,
+      "validation_mse": 0.05924411490559578
+    },
+    {
+      "job": {
+        "kind": "main",
+        "n": 4,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_wide_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/main_4x4_T5_seed2024/lstm_wide_gate/best.pt",
+      "sha256": "ae07caf360e8f640bfb8417eca0e8273598cc9c78810cb57c8b2bfd809c07a86",
+      "selected_epoch": 239,
+      "validation_mse": 0.04188590124249458
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 3,
+        "seed": 42
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T3_seed42/lstm_gate/best.pt",
+      "sha256": "8a307a765aa120097169f28433b6aa5c6836c7fb3968f40812fad4318ffcd209",
+      "selected_epoch": 105,
+      "validation_mse": 0.04290321096777916
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 3,
+        "seed": 42
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T3_seed42/mamba_gate/best.pt",
+      "sha256": "be9e0031aedfcb220a338977eb3f9ad6d83013a2fd0f753cfd96b28860bb833d",
+      "selected_epoch": 145,
+      "validation_mse": 0.0433400496840477
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 3,
+        "seed": 42
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T3_seed42/lsres_gate/best.pt",
+      "sha256": "e497ec00453f8f6786a6e3ab73e37d9737a5d3802c2bca45ad524426d2d528ed",
+      "selected_epoch": 48,
+      "validation_mse": 0.04390924796462059
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 3,
+        "seed": 123
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T3_seed123/lstm_gate/best.pt",
+      "sha256": "e963fa00b16191dd56e6be65ab7b13fb024df87ec7bff4578b14b680edfdbc20",
+      "selected_epoch": 119,
+      "validation_mse": 0.04242771863937378
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 3,
+        "seed": 123
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T3_seed123/mamba_gate/best.pt",
+      "sha256": "e390f2fdc4e19dae1a11e90dabce175d94df73fc90c9e822a054eca83bb28d8e",
+      "selected_epoch": 131,
+      "validation_mse": 0.04305367171764374
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 3,
+        "seed": 123
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T3_seed123/lsres_gate/best.pt",
+      "sha256": "6ed4653f7480eec4227e60b7ec14081c3f40db69822359713158c8d5b585e98b",
+      "selected_epoch": 48,
+      "validation_mse": 0.0432627908885479
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 3,
+        "seed": 2024
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T3_seed2024/lstm_gate/best.pt",
+      "sha256": "77edd85c6350ced4bc31c51572667cee7a8f10c086b7b4cb46b7a99fc574745f",
+      "selected_epoch": 118,
+      "validation_mse": 0.04421094059944153
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 3,
+        "seed": 2024
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T3_seed2024/mamba_gate/best.pt",
+      "sha256": "9b041a5cc4ecaf187dedd9bf34d2728cc58d6151b3ba71eb4871ca84419ed87d",
+      "selected_epoch": 156,
+      "validation_mse": 0.044198617339134216
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 3,
+        "seed": 2024
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T3_seed2024/lsres_gate/best.pt",
+      "sha256": "b266c2658e3a4dfbc23192074c2dee2bfcf5b9bc92c0afed56adc12c59015e04",
+      "selected_epoch": 60,
+      "validation_mse": 0.04523570463061333
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T5_seed42/lstm_gate/best.pt",
+      "sha256": "c894c217b44b8a52fc0ad9ad292571382379f8910bb54f20ae41c8419e7b793c",
+      "selected_epoch": 164,
+      "validation_mse": 0.04118118807673454
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T5_seed42/mamba_gate/best.pt",
+      "sha256": "32b8b4140d6a428946c30197278db8e811c357522c95a487cb9733814050019a",
+      "selected_epoch": 133,
+      "validation_mse": 0.04228060692548752
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 5,
+        "seed": 42
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T5_seed42/lsres_gate/best.pt",
+      "sha256": "f833cca9008ff35000b532e09455bd1a151af7c55832a4562feac63b087a7bab",
+      "selected_epoch": 61,
+      "validation_mse": 0.042329441756010056
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T5_seed123/lstm_gate/best.pt",
+      "sha256": "91da253f8346404f9061a5ca8ca79a4604becd6e43ff3024567ff9dc859ed299",
+      "selected_epoch": 132,
+      "validation_mse": 0.039672136306762695
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T5_seed123/mamba_gate/best.pt",
+      "sha256": "0e0c2b61669dee8457221541fd9dcde7ba9522fb8ef19854c41b2882478f366d",
+      "selected_epoch": 179,
+      "validation_mse": 0.04046468436717987
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 5,
+        "seed": 123
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T5_seed123/lsres_gate/best.pt",
+      "sha256": "1fceebc5c38d484396c8152435bf511b6adb458d500122cb5abf15c18ebb62e4",
+      "selected_epoch": 49,
+      "validation_mse": 0.040665097534656525
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T5_seed2024/lstm_gate/best.pt",
+      "sha256": "c4282463bcbd36eb55e2387083af168bb75747e7fba9773c352f7bf9bcfb462c",
+      "selected_epoch": 131,
+      "validation_mse": 0.04041054844856262
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T5_seed2024/mamba_gate/best.pt",
+      "sha256": "0793a52a5341564cb2800494687e12956e8d956c1c96561458b8a15980201376",
+      "selected_epoch": 157,
+      "validation_mse": 0.04012974351644516
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 5,
+        "seed": 2024
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T5_seed2024/lsres_gate/best.pt",
+      "sha256": "df15413de8cd6a27e0e1e45249598bf1146bc7fa8de0b702d1fbc14a0f7e7d42",
+      "selected_epoch": 51,
+      "validation_mse": 0.04180965572595596
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 10,
+        "seed": 42
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T10_seed42/lstm_gate/best.pt",
+      "sha256": "d54a327cd54ee3c6c6eabadd3f307d61721c78be076c8950b97d6599ac358b5d",
+      "selected_epoch": 163,
+      "validation_mse": 0.03885667398571968
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 10,
+        "seed": 42
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T10_seed42/mamba_gate/best.pt",
+      "sha256": "61b01c2a71838df6a52de9b52305b287e467e9a5f0ee3ac4dd515d0a5b261975",
+      "selected_epoch": 166,
+      "validation_mse": 0.03985852748155594
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 10,
+        "seed": 42
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T10_seed42/lsres_gate/best.pt",
+      "sha256": "0b1412aecc3c5e7f964c5bab8fc2c5912f567dbe2d622c8e7fc0035e0026fc38",
+      "selected_epoch": 73,
+      "validation_mse": 0.040241092443466187
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 10,
+        "seed": 123
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T10_seed123/lstm_gate/best.pt",
+      "sha256": "74272081265991e16a42d51f298b5436587df9a83b6cc27a73ee0b1b3995e143",
+      "selected_epoch": 138,
+      "validation_mse": 0.03696838766336441
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 10,
+        "seed": 123
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T10_seed123/mamba_gate/best.pt",
+      "sha256": "09f863e0b558b211a74c86e5640692d0015493488931c6ebec69d7198e48eac7",
+      "selected_epoch": 151,
+      "validation_mse": 0.038449935615062714
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 10,
+        "seed": 123
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T10_seed123/lsres_gate/best.pt",
+      "sha256": "1e400f14358a738374bea4e757011665d02c2475d8666afd2e5b5fa60c8c9ba7",
+      "selected_epoch": 82,
+      "validation_mse": 0.03800659626722336
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 10,
+        "seed": 2024
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T10_seed2024/lstm_gate/best.pt",
+      "sha256": "cc68b57b1f59294dc89f095606b7ab8f98026300244a67bc8ae27d673824bc4c",
+      "selected_epoch": 130,
+      "validation_mse": 0.03705916553735733
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 10,
+        "seed": 2024
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T10_seed2024/mamba_gate/best.pt",
+      "sha256": "e29f2e1fccf2f1b44031fc0842b8d7a47537e9b2e11eb8cf888956103ecc2bcc",
+      "selected_epoch": 130,
+      "validation_mse": 0.03851721063256264
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 10,
+        "seed": 2024
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T10_seed2024/lsres_gate/best.pt",
+      "sha256": "5a78872bd5e02bf5b828192107515b783bad2c081fcf743d7e1dee5e2dec77a5",
+      "selected_epoch": 82,
+      "validation_mse": 0.03867500275373459
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 15,
+        "seed": 42
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T15_seed42/lstm_gate/best.pt",
+      "sha256": "de9aceb463b7dca8d0597d19c578e0aacfabeda7b12b233993c4b536dced1206",
+      "selected_epoch": 128,
+      "validation_mse": 0.037893764674663544
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 15,
+        "seed": 42
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T15_seed42/mamba_gate/best.pt",
+      "sha256": "ff214f38c4694a1522d037be44b02ff597ce9cf587f6e36b873361e92892766b",
+      "selected_epoch": 153,
+      "validation_mse": 0.04006762057542801
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 15,
+        "seed": 42
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T15_seed42/lsres_gate/best.pt",
+      "sha256": "3ea4828a3279e7d856609a7e90717f41b85cca20920c0ec8dccc5a92df54da99",
+      "selected_epoch": 83,
+      "validation_mse": 0.038747016340494156
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 15,
+        "seed": 123
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T15_seed123/lstm_gate/best.pt",
+      "sha256": "bca98435b2f48146c0c922f067689db6d0d1961abef772cdc931cd77decf9898",
+      "selected_epoch": 139,
+      "validation_mse": 0.037434253841638565
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 15,
+        "seed": 123
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T15_seed123/mamba_gate/best.pt",
+      "sha256": "f2271a92b4631845449d8f56d8edc6245a8936fbf491fa361fcdb302ed639690",
+      "selected_epoch": 158,
+      "validation_mse": 0.03892984241247177
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 15,
+        "seed": 123
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T15_seed123/lsres_gate/best.pt",
+      "sha256": "8fc3cceadf889e876b938d283098e7fbd8554a72d160954fe5e9a57412eb7589",
+      "selected_epoch": 82,
+      "validation_mse": 0.03870176151394844
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 15,
+        "seed": 2024
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T15_seed2024/lstm_gate/best.pt",
+      "sha256": "3d163f1bcb837f031bd0ea50e66eb64e2e83b9a392296a00e76ec9042af14497",
+      "selected_epoch": 145,
+      "validation_mse": 0.03730863332748413
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 15,
+        "seed": 2024
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T15_seed2024/mamba_gate/best.pt",
+      "sha256": "a85ed8c3a0997f1ea7c652e4295c2a308f49d1a0b9fed849b2861472649a75e1",
+      "selected_epoch": 145,
+      "validation_mse": 0.03961924463510513
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 15,
+        "seed": 2024
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T15_seed2024/lsres_gate/best.pt",
+      "sha256": "4618d40db4c9ff31c6bc18de8cd57daa309a1f48277cd218c4745ef2bf470ca7",
+      "selected_epoch": 83,
+      "validation_mse": 0.03924877196550369
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 20,
+        "seed": 42
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T20_seed42/lstm_gate/best.pt",
+      "sha256": "8554f7a073e5a163f76c0fe04b1fe67c8bd606180fb859fdc121cc90e2e9eb16",
+      "selected_epoch": 155,
+      "validation_mse": 0.03742482140660286
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 20,
+        "seed": 42
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T20_seed42/mamba_gate/best.pt",
+      "sha256": "2a06aadf1a4f350b5176789cadb6c5f5b5bdecdda26a566f5d4d845d5d9fd528",
+      "selected_epoch": 132,
+      "validation_mse": 0.04084446653723717
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 20,
+        "seed": 42
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T20_seed42/lsres_gate/best.pt",
+      "sha256": "f083b6a32a8cee9bf2b1df088ccb4cc2c3561d21204959713e66978ff47aebc4",
+      "selected_epoch": 97,
+      "validation_mse": 0.03892555087804794
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 20,
+        "seed": 123
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T20_seed123/lstm_gate/best.pt",
+      "sha256": "8590d4f2e85156c596c306e73b8453c6b8586e1075981263f4c728583e8bbacc",
+      "selected_epoch": 125,
+      "validation_mse": 0.036662377417087555
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 20,
+        "seed": 123
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T20_seed123/mamba_gate/best.pt",
+      "sha256": "20a324cfbeaa8f243a6a6980c43ca9cb04333f4a25f9cfe0f417e8feb00c98d3",
+      "selected_epoch": 139,
+      "validation_mse": 0.03950423374772072
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 20,
+        "seed": 123
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T20_seed123/lsres_gate/best.pt",
+      "sha256": "c0f38c6d93b72cb0e0041d8fd61308f87ec3a623597e85d5894d0d6d6171dbfd",
+      "selected_epoch": 134,
+      "validation_mse": 0.038324225693941116
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 20,
+        "seed": 2024
+      },
+      "model": "lstm_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T20_seed2024/lstm_gate/best.pt",
+      "sha256": "36af285c2b8216545b75c2623cdda398711329e45cc8085b983af53ee59b4d3b",
+      "selected_epoch": 185,
+      "validation_mse": 0.03775743767619133
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 20,
+        "seed": 2024
+      },
+      "model": "mamba_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T20_seed2024/mamba_gate/best.pt",
+      "sha256": "65c43d03763553b4d49d4cde745aa6f26440a3750eca390ef8c84bca2096ebe6",
+      "selected_epoch": 126,
+      "validation_mse": 0.040285591036081314
+    },
+    {
+      "job": {
+        "kind": "seq",
+        "n": 2,
+        "T": 20,
+        "seed": 2024
+      },
+      "model": "lsres_gate",
+      "stage": "extended",
+      "checkpoint": "jobs/seq_2x2_T20_seed2024/lsres_gate/best.pt",
+      "sha256": "8ba934627371eb857f19a8eb809496714056e1c5fd2babf9be15e9280104ead5",
+      "selected_epoch": 73,
+      "validation_mse": 0.042134854942560196
+    }
+  ]
+}

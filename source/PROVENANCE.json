@@ -1,0 +1,22 @@
+{
+  "version": "3.2.0",
+  "prepared_date": "2026-09-09",
+  "parent_run_id": "3bfd208073793897927a418fce0c95d661a66847da86a81f2099d8385c2ae2cc",
+  "audited_parent_source_sha256": "16b3ae2cffa69c0a51627c4fca2521d317721e133c39098e24e9fb412436ba07",
+  "source_sha256": "f4993ae9916dafdc62e4e13ab6e45c5dec4dab713a37ced1eae9cae24348333e",
+  "config_sha256": "f9d279e85aa0342ff4bb8ac80d8b497f78813c23e3a9bc4e1df8299d112ef572",
+  "verification": {
+    "local_tests": 27,
+    "cpu_smoke_fits": 28,
+    "cpu_smoke_metric_rows": 574,
+    "actual_parent_states_checked": 93,
+    "full_gpu_study_executed": false,
+    "notebook_schema_and_cells_checked": true,
+    "notebook_wrapper_executed_in_python": true
+  },
+  "unchanged_files": {
+    "bootstrap.py": "88a67508e6637be7d7426c364db5ae3e7e46af1eebe6d2bb4f21e7a4a006dcd5",
+    "wheel_manifest.json": "d6dde7b7619b15cbd00bd31dabe66b68e44f6ddc39c0f2850a584916b9972e8e",
+    "phycom/simulation.py": "7ffdfbe923feca936089bf46e6af49ddd754b0aea197a4ab171a702117fdfdd0"
+  }
+}

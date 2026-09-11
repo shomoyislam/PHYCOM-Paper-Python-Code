@@ -1,0 +1,186 @@
+{
+  "run_id": "f02dc7033958e7f6d7c2dfb965bc730e48b7863f08bf20871f088966ccc35265",
+  "code_sha256": "f4993ae9916dafdc62e4e13ab6e45c5dec4dab713a37ced1eae9cae24348333e",
+  "config": {
+    "schema": "phycom-v3.2",
+    "mode": "publication",
+    "arrays": [
+      2,
+      4
+    ],
+    "seeds": [
+      42,
+      123,
+      2024
+    ],
+    "main_T": 5,
+    "alpha": 0.8,
+    "M": 16,
+    "train_samples": 100000,
+    "val_samples": 20000,
+    "test_samples": 20000,
+    "train_snr": [
+      0,
+      30
+    ],
+    "snrs": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "batch_size": 256,
+    "epochs": 240,
+    "reference_epochs": 60,
+    "patience": 10,
+    "lr": 0.001,
+    "lr_patience": 5,
+    "lr_factor": 0.5,
+    "loss": "linear_mse",
+    "gradient_clip": null,
+    "seq_lengths": [
+      3,
+      5,
+      10,
+      15,
+      20
+    ],
+    "seq_seeds": [
+      42,
+      123,
+      2024
+    ],
+    "seq_train": 40000,
+    "seq_val": 8000,
+    "seq_models": [
+      "lstm_gate",
+      "mamba_gate",
+      "lsres_gate"
+    ],
+    "temporal_grid": [
+      0.3,
+      0.5,
+      0.65,
+      0.8,
+      0.9,
+      0.95
+    ],
+    "spatial_grid": [
+      0,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "snr_bias_grid": [
+      -3.0,
+      -1.0,
+      0.0,
+      1.0,
+      3.0
+    ],
+    "snr_error_std_grid": [
+      0.0,
+      1.0,
+      2.0,
+      3.0
+    ],
+    "stress_snr": 15.0,
+    "stress_samples": 10000,
+    "ber_blocks": 2048,
+    "bits_per_block": 1000,
+    "bootstrap_resamples": 2000,
+    "rate_blocks": 4096,
+    "latency_T": [
+      5,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "latency_batch": 32,
+    "latency_trials": 100,
+    "models": [
+      "cnn_gate",
+      "raw_lstm_gate",
+      "lstm_none",
+      "lstm_concat",
+      "lstm_film",
+      "lstm_gate",
+      "lstm_resgate",
+      "gru_none",
+      "gru_gate",
+      "mamba_none",
+      "mamba_gate",
+      "lsres_none",
+      "lsres_gate"
+    ],
+    "wide_models": [
+      "lstm_wide_none",
+      "lstm_wide_gate"
+    ],
+    "wide_arrays": [
+      4
+    ],
+    "stress_models": [
+      "lstm_none",
+      "lstm_gate",
+      "mamba_none",
+      "mamba_gate",
+      "lsres_none",
+      "lsres_gate",
+      "lstm_wide_none",
+      "lstm_wide_gate"
+    ],
+    "test_namespace": "phycom-v3.2-confirmation-20260909",
+    "convergence_window": 20,
+    "convergence_relative_gain": 0.01,
+    "mamba_version": "2.3.2.post1",
+    "causal_conv_version": "1.6.2.post1",
+    "include_mamba": true,
+    "torch_threads": 2
+  },
+  "environment": {
+    "python": "3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]",
+    "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+    "torch": "2.10.0+cu128",
+    "numpy": "2.0.2",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.0",
+    "cuda": "12.8",
+    "cudnn": 91002,
+    "packages": {
+      "mamba-ssm": "2.3.2.post1",
+      "causal-conv1d": "1.6.2.post1",
+      "triton": "3.6.0",
+      "einops": "0.8.2"
+    },
+    "gpu_names": [
+      "Tesla T4",
+      "Tesla T4"
+    ],
+    "deterministic_algorithms": "warn_only; official CUDA kernels may be nondeterministic",
+    "parallelism": "one independent job per GPU; timing serialized; no DataParallel"
+  },
+  "runtime_identity": {
+    "torch": "2.10.0+cu128",
+    "numpy": "2.0.2",
+    "scipy": "1.16.3",
+    "cuda": "12.8",
+    "cudnn": 91002,
+    "packages": {
+      "mamba-ssm": "2.3.2.post1",
+      "causal-conv1d": "1.6.2.post1",
+      "triton": "3.6.0",
+      "einops": "0.8.2"
+    }
+  },
+  "created_utc": "2026-09-09T10:50:32.898005+00:00",
+  "status": "complete",
+  "completed_utc": "2026-09-09T15:24:48.865768+00:00"
+}

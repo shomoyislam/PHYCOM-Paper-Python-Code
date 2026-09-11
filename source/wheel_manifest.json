@@ -1,0 +1,1125 @@
+{
+  "verified_date": "2026-09-09",
+  "assets": [
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "6751d5b818e989cbd6fa5074a1b503a05a0751bc01f61e8afe713139b688ce91",
+      "bytes": 109160821,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "e3f62b39afaf54e7dc3e31bf0e2a7e28593c3b44a924492518f8760a274545e5",
+      "bytes": 109177367,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "e0b7b5b0a65fff6ad03b3c70d0fec280ef27c8816d2de3eeacca91f12c96a42f",
+      "bytes": 109178471,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.6cxx11abiFALSE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "34b4d91f6461bf44582c6aeb91a4ebd69d14b87f57448b8c585f170d907f2cad",
+      "bytes": 109178953,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.6cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "965c82104c26b4f9b13fcdb40ef8795c9c3950be16e26a77974d30dbedbac75d",
+      "bytes": 109172519,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.6cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "c9dc7919a7b8bbe7ea6eb43d8ed5dc44cf44f9a6c183f0bcd87bbbdbd810c6ee",
+      "bytes": 109188899,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "c7f46b8cf96751fa09d6a6ea072cf95dd4532eb19af0ef581acca2f842b621c7",
+      "bytes": 109193575,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "6d1959687be7874d648a6ad3bb1df43651ae13e69b4088ca1fedad37d112007e",
+      "bytes": 109193284,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "029e5722be95d2b8eacfb41d1e6395063e67b24f07c33d344d55d588fe668fb6",
+      "bytes": 109223767,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "0450d384af187a16abd5314bf94c524bf0b0c23812050ec7d97fcb980c4c40cd",
+      "bytes": 109240455,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "8de6245bcd2a93cde2855953d5b9a5d665bb544b1d95fb87e1c0c3e515b826e9",
+      "bytes": 109245353,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu11torch2.7cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "47957c63a232a2103c1c9ac40aa37c0c7880567adefdadd67784e9c367a19e18",
+      "bytes": 109245135,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.10cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "17a28ec0c1768cb13670fd332fa45032ae7fd6c5e4566c5a2b04a90d9bbe2230",
+      "bytes": 193786548,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "659bb399a79bfcab771e7af355df64bdc29458c308321d7711b4363c0ca89345",
+      "bytes": 193819542,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.10cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "0ae0d8dd6d068e2bce36f0e568d038df8332a8fe75c52bd4211add809800b70f",
+      "bytes": 193794857,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.10cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "6ef3667660ef4404f9f833bb6988ab46e5024aec29af0f0575c195e307acf4ed",
+      "bytes": 193833839,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.10cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "5191669d812e94384c4bbd9355cef91a1a162de1d50f39795857426a4e45b605",
+      "bytes": 193800080,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "c16c1c48d4fa63415cc797e02d69f97248c57c04627d99e394d5bb0ef266e288",
+      "bytes": 193835395,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.10cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "72aa38e0aab99e05809e00e1cf7b0f1e84483e75c3554a9399f2b89d7155c416",
+      "bytes": 193800075,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.10cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "5254d91fc527236896d69c75019802ee3e2bfac9e232ab10f60f88bc1c24f6b5",
+      "bytes": 193834393,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "00d214a167598654dcd15be8d0a21faf5ca2e000de21aa682e5399e4c41b2a89",
+      "bytes": 193557366,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "673ea7343956ed4d17d82436a8eb3020ea6635cc36e47145f0fafe371a7b46af",
+      "bytes": 193573450,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "c53ca5feb74c9e598dae47ca7d1cba7863007f41b54a825ea2b26a26776d1812",
+      "bytes": 193578288,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.6cxx11abiFALSE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "8bcb1c64ca57decf673526ee1823b272f8819bbe3789c5492b72c77a02b31657",
+      "bytes": 193578015,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.6cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "bb2589eb570ba447e2acf30f66a14f79cf0b80039999cf61e2684c01f13987ec",
+      "bytes": 193557330,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.6cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "d7a0c6afe242db21c9a9f31879c9885f9dc117bdc2f0477003e7fc6a5adf16b8",
+      "bytes": 193573459,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "1dcd9a28569a3da51a79c76c13b9e8122f625a4262eab8350138207cfee7f401",
+      "bytes": 193578197,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "2009089340c4f6a2740a4135959a1b5c7b5871ac165e10a9bec96d3a388b4508",
+      "bytes": 193577986,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.7cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "77a216996b9b8639031a6e9f86e63c6db4b128972378cb98e4c8b95dc1002a88",
+      "bytes": 193585292,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "e56695afe5af35cca614a2f3b76c6d7fbd0c9ec0d02e870c7e7f296d56127f4e",
+      "bytes": 193609222,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.7cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "c8228585eee0349e2a1bb5d29bc622d7c024344eab243633ba403d15d6fc0cc3",
+      "bytes": 193602000,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "f60bdd32d31e458f4da15772a8b61d648893bc0443ef0d7bb29a27306e2aaa63",
+      "bytes": 193626314,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.7cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "b7e1547c763c71c1e2fa7dddf60ba311b9b750f9b27ef33965b2e6255053a46f",
+      "bytes": 193609598,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "42582abc72646fcc7bd3371bcb7cde7b5cb9c7e78181e9f978318fc5d8982bc5",
+      "bytes": 193631448,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.7cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "63bf66709564f54143fb9cef28f08419840762a321b883e3bf49821584d41646",
+      "bytes": 193609953,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.7cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "60ffddc513f9f3e6667be1a8d4e6a9f986d5ce58c0bf4777a95cc6fb6c328fca",
+      "bytes": 193630961,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.8cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "cdae27912a98023b26884fdea97b21f8fd90996f36137a66de6613c067bb7c60",
+      "bytes": 193608237,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.8cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "f399ac05f643b325a1e962e36b126cea0642196a20772006e4f2f2325d1ad920",
+      "bytes": 193630521,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.8cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "7ecb2f34a2073bda8a77e67ee4e17edefe533d62392432c50e9a580aebcd9036",
+      "bytes": 193622766,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "ca0bca912bf9ad3761f3a900815d0940c1d457c1df27a1c024b5ae43a0cfd68b",
+      "bytes": 193644963,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.8cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "6f15e5281a33a2ebff246b75a3983af5afafbe090a61f604497b9aa3c171229a",
+      "bytes": 193631140,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.8cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "ee5a87ebc4a8bb04408e20cc95cdb85e90742b90c0bcdfb1384a88758f2ee246",
+      "bytes": 193650571,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.8cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "0b0a89ca16da72a4380f922a367887997e628a5bccb8c626539aa5e9af0b0ef5",
+      "bytes": 193632014,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.8cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "81f5e0cdf17f83814d3fc328ed1549affd9e61e05b0a812a6fdb7a247971f206",
+      "bytes": 193649976,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.9cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "5a96659bfb11c59c56b6478b9a6882681c623e8ff2bd55a42a5fd7a6435cfbec",
+      "bytes": 193748703,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.9cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "ac0d4012439441ea68b962dafe0fd5d42b3b086211b7d81ed0acadcbb10e2e95",
+      "bytes": 193781093,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.9cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "fc5caac2af18bde0a7d269e84a80fb2ec88bf8361257dd7dd201a34bd95edac5",
+      "bytes": 193762085,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.9cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "0341ebb14402a00d5743e1f0ac62bfcf5a95f52a94e562c17f0ade1e0d9db616",
+      "bytes": 193796334,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.9cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "d740cd16df5a6c71bb79adc87f51d98d9c8a726d0ab9393c1642e7f135cae2ae",
+      "bytes": 193770355,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "3d09789a5df2760a59c2064c4570a4ccd30315943581e9553eb1f412cd9e25a6",
+      "bytes": 193795077,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.9cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "5522575b884ac51f9a12227128a23d88ef5ce0d9503adda8384ccf275b88ad40",
+      "bytes": 193770099,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu12torch2.9cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "a147b0d9eabede544c9b9a79ae1257d3759d82c62c887540ddef2f406837fa39",
+      "bytes": 193794588,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.10cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "01dd2d0602985e0d36c87357eb0c87c97e25318c85a1440a009b8396cbcc7bb9",
+      "bytes": 205757019,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "a2348cd8721c4982d67c8a1cf7c73c4014ffbbb08eca27d88ad424c53852f7fc",
+      "bytes": 205744046,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.10cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "cc1bd67948e87c839a777365935041ad0b5fc5513f486c9beeca77c1c288e018",
+      "bytes": 205769458,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.10cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "bb53425e6976ccf88b17a698163e5421cc5df10435d5459e24b4e6147c4878e1",
+      "bytes": 205755945,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.10cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "7fd3b5d2ec786f964c25055d1e41106a1558492835d9abe660a894f64cc2ffb7",
+      "bytes": 205774770,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "c5c85cb4bc33366bbffa74cf229da9083fea0270e41fbbb2a90ed35da639f211",
+      "bytes": 205758134,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.10cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "76cdc093cd7bd6be163f094088a836241cef6f771c03ee710e2d4234a52c0bf2",
+      "bytes": 205774529,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.10cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "f898d5723115d4ba44ba86048cf9910a5871affd19c4630bd2fa35ddd28693bf",
+      "bytes": 205756648,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.9cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "0769bd6ccf328f746b97040165f25cac056b9d68f2f3bf13de2202a84381223b",
+      "bytes": 205724057,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.9cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "ccbaf6e266e75efdd584ee0e99b0fefc5df359fd7b5f4155f754dc8768aabfe8",
+      "bytes": 205708219,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.9cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "d98e116320b5bae6426f3d22f7006ac6d0e97ae981e4b0e5fa11433abac2dc57",
+      "bytes": 205735961,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.9cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "ff17733a2b19d0c21bb45760010f84d007d3586a3b1df417cb225b9350f9e966",
+      "bytes": 205724384,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.9cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "8d2cf811cc53f22aa65dcb6b5d5714e4cf8a1311181c9ee5afea620f378917e6",
+      "bytes": 205745387,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "e33160fa72d271eb8985ba366f8fa944a92664946e41310aa966761867904fa4",
+      "bytes": 205724175,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.9cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "49ccb429ab4f83af9b03a5b4b2f60fdb4caacf5335b1e03c9c2be02a1f0559b6",
+      "bytes": 205745228,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch2.9cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "a48e66c513d801f6cb541750de3d0154c7203a0fecd812111ee6911700e808e2",
+      "bytes": 205723714,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch25.11cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch25.11cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "3f73d963753c21b1ecf0e1af77a28fd5383d62c4611d780b371c6b8499482152",
+      "bytes": 205576327,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch25.11cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch25.11cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "6870176c188d683f1e0c7c32b4d60ba6a4e41e7584551353fa54c1dca6e1b195",
+      "bytes": 205601721,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch25.12cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch25.12cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "f7e8a41bc700474e7d05fada024e16d13eebc5b05f6a28e19e334aef339290f8",
+      "bytes": 210356662,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch25.12cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch25.12cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "ecde81070514ed0931e4d020bf31060e4b024e18b9cfd27fff69be6f40c72b94",
+      "bytes": 210384698,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch26.01cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.01cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "4220f168deb62ee22a16ff08a29d4fcb0f710cb287ddb35c1781cc43d2238719",
+      "bytes": 210372006,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch26.01cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.01cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "0906c18e8dc66aaaa783435d3792bf41001173ea808738cb68f880271c1c4f9b",
+      "bytes": 210401382,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch26.02cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.02cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "3fc1ef02e05eb78dfb3b7c950dc7a8d9a3e56a0220ac53f1fdf0ae87d4800620",
+      "bytes": 210371280,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch26.02cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.02cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "401fd95362a951313fe07e32251c2b6cd19de5b2d266ffdeb02db42877c3345d",
+      "bytes": 210400695,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch26.03cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.03cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "06c8a192c73c1d68c2c71b83cfbed895add02744afd03e900c335cea67767f4a",
+      "bytes": 209771316,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch26.03cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.03cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "9acfc63c8ffc2f8aa45edf011d453e4a03a7de6e4f706226a2d9ebfc5bbf6ff0",
+      "bytes": 209831224,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch26.04cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.04cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "f2f65fb7082f330bddb58ab166131a19d911b6304eb715ea1171d662ab94db4c",
+      "bytes": 209764185,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "causal_conv1d-1.6.2.post1+cu13torch26.04cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.2.post1/causal_conv1d-1.6.2.post1%2Bcu13torch26.04cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "4d792a1fdb27c1e164caa6e1e9a469be9d16b1f1480ddcb03c15117d3bbdc898",
+      "bytes": 209830483,
+      "release": "https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "ee1440dc8ea4c7fa0b759dd63082992b744cd6ed13bfd535e7373876dbc851fc",
+      "bytes": 196406306,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "b62308e93080839904b78646057c97b43767cdba01b861655337df287398e30b",
+      "bytes": 196429335,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "fbef08926755bc232ae6e0d264876c396eb8e936e500ae6e0ac6cad44b86999b",
+      "bytes": 196430958,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.6cxx11abiFALSE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.6cxx11abiFALSE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "acf6864efbcd749dfcb7fd66c9cc5d4a7362d8c2457a44ae1816fab90c7b44bf",
+      "bytes": 196430346,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.6cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "e09d018dadec33bbad7c4c1324f9ea31bf88ebb5bbf22fe18c2f7740f9dcf151",
+      "bytes": 196441877,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.6cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "3156d48d9f1d958f8c3235f34ecbb1832b0ba5b0ace9436c5b2f051b4b9f7fa5",
+      "bytes": 196461373,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "315adadb56a4160c55f91356c9722063e3ad0686090934ce4a310ebb0f68156e",
+      "bytes": 196458944,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "08c50696ed1821024be31aca73436ab84e1748d45254fb8122460609bec3bbdd",
+      "bytes": 196458851,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "e95364fcc58ec78a9c8a29172ea18c995c003f4f356ee61c1a2c245031a5f932",
+      "bytes": 196443553,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "8bd2a88d67a6695336a1bf51c90afac5a4083a3891c6ec342dbd42ca3ad1f537",
+      "bytes": 196464128,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "f8fd6195c381d46a929b46364f59cd0382c41f72482cc092a650f49a5f4f80cc",
+      "bytes": 196461889,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu11torch2.7cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu11torch2.7cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "1e1620cbc9552a95ce673159ee0a089e4f9cc108962b99fbd28d95209c4167e2",
+      "bytes": 196461721,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.10cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "8a7cbf4995c7e08ffc98a3b559e4606cac944c09d471bbbecef167672598aefc",
+      "bytes": 322232249,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "b79f5e60c5f899690286b8dfb53fee5bf413098e61d95988ac4b0a3b6c56b60c",
+      "bytes": 322267124,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.10cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "9e1409e4998ec016c0b9b3f9815b512fdc05718ae9842b72adab5f1fc03f6325",
+      "bytes": 322250293,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.10cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "59d2efd0bb16f9c22b0d8cc7fa0f6fef046bef8f9a2c6a8c8a2fc2218a3218a5",
+      "bytes": 322281950,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.10cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "9fd80d6e75d132774f949ffb48832c8bd8c637ac7c98c9e626a399e2d1d7babf",
+      "bytes": 322256296,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "7a67070c1e7e99c95abd1319623f044e8a1b3fb46f774bfdea949f0a4fc79638",
+      "bytes": 322288410,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.10cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "e760efe3b506e74db3f0a5af5093af9afcb4b80552a547afc1cb296535ac39ec",
+      "bytes": 322256942,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.10cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.10cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "d058f16983d768baecb6bd65f46a18f28f273079c271acc3c4955f457bae713e",
+      "bytes": 322288380,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "b1b4ca5c0ea6efebaa2bf415040c096d3b0add580776b543857419a4bf2da2f9",
+      "bytes": 322041623,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "2b5e38bb655d804face14d538a63303f91e03aa630cb4998c707ddb1f5eed681",
+      "bytes": 322060146,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "af35ab0ff67e345c9a21d1a15da02048abf4bf3041f2a8cbe11611d7ede34470",
+      "bytes": 322058432,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.6cxx11abiFALSE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.6cxx11abiFALSE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "8c7739d65bf6477631feb5f69a6cafe207aa8b698411c73594de4168502c16d2",
+      "bytes": 322058435,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.6cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "0917bf2a4f79a697ee306acc83aadf0b07628242e45e6abd23f9ae40237bd158",
+      "bytes": 322041894,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.6cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "090878532b424bd7e25cf0d96c716ea903998c19bdaec16360e7e8f76d9f9f6b",
+      "bytes": 322059995,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "a516381dec79b032c9f64476f06189b84bdb8865a1f79e136e833df5bc6d8666",
+      "bytes": 322058503,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.6cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "c87bed32335b17d6911ab53697367adb5edebf27e7531c7a2fc7d894b8151ec4",
+      "bytes": 322058487,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.7cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "1d9bc6b403e95332c4815fa1718e19765a1d1c682718755cbd42ad82be0c6dda",
+      "bytes": 322018626,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "82041a4fa04536ca06abd05aa4507a3722b7d9fc1cfc1a17a38734423de2d197",
+      "bytes": 322044903,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.7cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "73350458841c7a4aee2ba23230d0c492479e5ea2205c07ebf5d90afc18dafdb3",
+      "bytes": 322037101,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "62f046ec823624504066b077976730441d79ecab0045e46fd06167334421a3d1",
+      "bytes": 322063684,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.7cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "97fff0acc59b242addbed8a6f4b1aafac675eb5da479c6eeda80200b3320ba23",
+      "bytes": 322032060,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "74ebe7e4214e41eb5f1975ce22ea261cf29f514e7025eb01a57201be2b4c2f5b",
+      "bytes": 322061601,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.7cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "2f14601985491916853e21dc8842a40c8c597d939ea0a83d5a077776dafef0e4",
+      "bytes": 322032222,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.7cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.7cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "285b86703a319396a4340a1b632500449eab47ad5214c3e5ab6d2a48dd08dcf5",
+      "bytes": 322061837,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.8cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "22243a9d9198042e7cb727693f2bb289949e9ce1e3ae5a2908a26b6653f1edd3",
+      "bytes": 322034647,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.8cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "9f5b166f80d17325e383f794d74e77c5685d82cf0748b69ac1a3fb8b9f8ea077",
+      "bytes": 322064685,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.8cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "9181b47531992eb190d90133a69abeb4bb9adfc9fedd4442b2a9c82bfb5638da",
+      "bytes": 322053623,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "413bda17da4222fda3513e56814a98a9026bcf1be95191baddb8735b3688a788",
+      "bytes": 322082391,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.8cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "e0a6a1e98ea1d6c255dd76f45491a908a4de6c07dd50b93899ecc1edc9a4e2de",
+      "bytes": 322050693,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.8cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "eabd2bfadeda8eeab6b14bdeb4486ccacd41174c02ffc1b527808d3e2b7e19ec",
+      "bytes": 322081121,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.8cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "d5c073177b9ffca4f9af66cf2295b686e92e1401a1432392ec9cf5d83b873bb2",
+      "bytes": 322049922,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.8cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.8cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "9baf3631adede6727d25a7818043947052977ae81663b649eff81c2c3a3f95b5",
+      "bytes": 322080657,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.9cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "9e775f3e8ab52f1315c545ccddc853589acd80bbb318f3ee50e1a89d82f953ab",
+      "bytes": 322191515,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.9cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "caa06529229ba10ab460d941e0a506df5221d638c91f5ae93aa9bea8452c073e",
+      "bytes": 322222374,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.9cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "a4e0f01aff57b3ab1b2a61a41bb874bd3df27b9ec95d72aad98f51b2f7e069c3",
+      "bytes": 322207841,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.9cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "aa5460c9607575b50fa66bf9c56fe0f4ec9447acd69f926cc5c8a3ce31a70fa8",
+      "bytes": 322235874,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.9cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "159f44bf1807443f9a9d39ee46c1c575b0dd5651b1f23a9c6d4a007d0e11cf6a",
+      "bytes": 322214591,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "8fd21085d668a3bdbb1f7903c81f64434d7ed2c763240f8328a465a42370a7b6",
+      "bytes": 322246976,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.9cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "0f7926292602d8efc35b91888d40828b7d2132ad4435fbec06a4d041498fb115",
+      "bytes": 322215174,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu12torch2.9cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu12torch2.9cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "7201849146fb3b517e1a89741c4042596652dea24f44a94e4a83e6246353f49e",
+      "bytes": 322246979,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.10cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "8ed7226df156f14f430eb1e7c6e6448c39365537a9123b0590294eb5f4b301e8",
+      "bytes": 349369331,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "72dbbb8d0ca24d594c14f8b48a7013d4097d8868dbf6af5f0204dbe1766e19ad",
+      "bytes": 349445127,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.10cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "9765f7b4dafeaed6b38410ea1b8b0f160be783df4b2419f84e43dc0075851d04",
+      "bytes": 349389352,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.10cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "7bacd9decf359e122fdd6131c3591ba5d81fce86602732fa5e30426274b07983",
+      "bytes": 349459345,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.10cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "932db7ab69684bab804cb8fc0249d6ac727296d53a140d71f43e2c097ff108e4",
+      "bytes": 349393527,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "01cb16f763d5824c8b8d4eaa0ad607451f5200969f1b51296ec88feb7f451f05",
+      "bytes": 349468454,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.10cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "20ba4186ab95efa0039ec8e22b98ae9665489a1db03a628a8a96bd50eb60f771",
+      "bytes": 349393404,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.10cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.10cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "7ac2a4ba7ba624786298c6ba184cc4db6ce027083f2c14c1429a4a2c0cb2c4cd",
+      "bytes": 349467912,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.9cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp310-cp310-linux_aarch64.whl",
+      "sha256": "637a95bb3675b16cc018dcbd56258c3158f57c79c3da3df7b0c9a2064f1ca33c",
+      "bytes": 349326411,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.9cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp310-cp310-linux_x86_64.whl",
+      "sha256": "444faeee703d6b55877b11ddcd2b5873a4a19df0d322bfdabc9f12a0d1bdbcf2",
+      "bytes": 349395278,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.9cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp311-cp311-linux_aarch64.whl",
+      "sha256": "783f52d3114c20cc705572595b7ec303acd997030a0bf258f4147d0d5206ff96",
+      "bytes": 349344568,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.9cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp311-cp311-linux_x86_64.whl",
+      "sha256": "17a86625f021dec952e28295beb076df2bd2c2d52427d3255d20d8ec325f8fff",
+      "bytes": 349408818,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.9cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "614d01268cd2b96935e7c368fba3d3633184444fd0d4a5ab728b63a6ce75eea0",
+      "bytes": 349350241,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "d0fe28c541827caa3d3f01f9c8c55537dee1bdeca815d9b296abe2443b1d3fbd",
+      "bytes": 349420235,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.9cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp313-cp313-linux_aarch64.whl",
+      "sha256": "589701e2d30e5966ae7e434b5a7008d6f38447c325537f3f6dd4143a6ab5c68a",
+      "bytes": 349351285,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch2.9cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch2.9cxx11abiTRUE-cp313-cp313-linux_x86_64.whl",
+      "sha256": "3d68bde3e233685c6a65209650db9470a929a83a2f4f794dd8f2b9abe203c886",
+      "bytes": 349420269,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch25.11cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch25.11cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "25118d099bdfd0a8eaf8840f8b6033c3d639047da3b895956994d50ff48c6fb3",
+      "bytes": 349279181,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch25.11cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch25.11cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "9fd8a398149a624c1ebfc73702e0e975f336a315e6a0fc9516192f012128283b",
+      "bytes": 349361804,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch25.12cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch25.12cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "fde7fed01eeb2c064223cfc9b939df8592e8a5472a0202fc2e3a8e06518a2c3c",
+      "bytes": 344728863,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch25.12cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch25.12cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "6984798c97e9110af6430c5d0ec06fb094cbe62fb131790618bfbfe5d6054f1f",
+      "bytes": 344800157,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch26.01cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch26.01cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "6921a2d8d4e7c1547588e9a1a859a838179937766f1d5566ed3970e4a88ce9b7",
+      "bytes": 344735599,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch26.01cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch26.01cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "c0a44ebed276c26dcbca2da92cce915c8937dc16eb2f5186d4b3f5e03167e9c8",
+      "bytes": 344811387,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch26.02cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch26.02cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "008e31f4c3ef48bc9c553d8be7074b023a6674a0a46bffc30aaeeb4166c4a8d9",
+      "bytes": 344733973,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch26.02cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch26.02cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "f64e5e1f37e3364d1d1bba6e882fdba208944d550eb3171f239aac071aa3cc5d",
+      "bytes": 344808818,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch26.03cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch26.03cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "24704443817e5599db3e1335aac822230e6c67553cb7f41788fe8ea8663ac36a",
+      "bytes": 342844589,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch26.03cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch26.03cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "690e0e346df163b4937b2e74a55d8d843b93e3c3d52133fe729f1d3e80f6cfea",
+      "bytes": 343004910,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch26.04cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch26.04cxx11abiTRUE-cp312-cp312-linux_aarch64.whl",
+      "sha256": "41dfa99b26941ef8430e4d356693dbcdd445080d2cd260aa1e73486741858e30",
+      "bytes": 342837690,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    },
+    {
+      "name": "mamba_ssm-2.3.2.post1+cu13torch26.04cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "url": "https://github.com/state-spaces/mamba/releases/download/v2.3.2.post1/mamba_ssm-2.3.2.post1%2Bcu13torch26.04cxx11abiTRUE-cp312-cp312-linux_x86_64.whl",
+      "sha256": "33165bf5685b866b4c7756aa1f015633cca56320654c45d929cb80d1186dc5f7",
+      "bytes": 342995472,
+      "release": "https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1"
+    }
+  ]
+}

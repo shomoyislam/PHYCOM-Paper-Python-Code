@@ -1,0 +1,47 @@
+{
+  "checks_passed": true,
+  "mode": "publication",
+  "publication_run": true,
+  "total_fits": 129,
+  "metric_rows": 3984,
+  "checks": [
+    {
+      "check": "Jakes moments",
+      "passed": true
+    },
+    {
+      "check": "all jobs completed",
+      "passed": true
+    },
+    {
+      "check": "expected number of fitted models",
+      "passed": true
+    },
+    {
+      "check": "finite metrics",
+      "passed": true
+    },
+    {
+      "check": "selected checkpoint hashes unchanged",
+      "passed": true
+    },
+    {
+      "check": "unique metric identities",
+      "passed": true
+    },
+    {
+      "check": "all scalar metrics reproduce from raw arrays",
+      "passed": true
+    },
+    {
+      "check": "valid NMSE and BER range",
+      "passed": true
+    },
+    {
+      "check": "equal sequence budgets and seed counts",
+      "passed": true
+    }
+  ],
+  "convergence_review_fits": 8,
+  "meaning": "Completeness and numerical consistency only; not proof of convergence, novelty or publication acceptance."
+}

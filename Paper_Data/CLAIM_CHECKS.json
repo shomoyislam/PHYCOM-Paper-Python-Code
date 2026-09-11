@@ -1,0 +1,134 @@
+{
+  "epoch_capped_fits": 8,
+  "convergence_review_fits": 8,
+  "total_fits": 129,
+  "baseline_comparisons": [
+    {
+      "n": 2,
+      "snr_db": 0,
+      "lowest_mean_neural_nmse_method": "raw_lstm_gate",
+      "neural_nmse": 0.3843953357295689,
+      "fixed_jakes_nmse": 0.3754419760563496,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 2,
+      "snr_db": 5,
+      "lowest_mean_neural_nmse_method": "raw_lstm_gate",
+      "neural_nmse": 0.1788941257353628,
+      "fixed_jakes_nmse": 0.17718613627926458,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 2,
+      "snr_db": 10,
+      "lowest_mean_neural_nmse_method": "raw_lstm_gate",
+      "neural_nmse": 0.07228840208396392,
+      "fixed_jakes_nmse": 0.07107217553675658,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 2,
+      "snr_db": 15,
+      "lowest_mean_neural_nmse_method": "raw_lstm_gate",
+      "neural_nmse": 0.02627338661727827,
+      "fixed_jakes_nmse": 0.02543806990678434,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 2,
+      "snr_db": 20,
+      "lowest_mean_neural_nmse_method": "lsres_gate",
+      "neural_nmse": 0.009383017185553583,
+      "fixed_jakes_nmse": 0.008795707501612992,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 2,
+      "snr_db": 25,
+      "lowest_mean_neural_nmse_method": "lsres_gate",
+      "neural_nmse": 0.0032506908585014024,
+      "fixed_jakes_nmse": 0.0029402066757695093,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 2,
+      "snr_db": 30,
+      "lowest_mean_neural_nmse_method": "lsres_gate",
+      "neural_nmse": 0.0013347311052943434,
+      "fixed_jakes_nmse": 0.0009615096777426999,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 4,
+      "snr_db": 0,
+      "lowest_mean_neural_nmse_method": "raw_lstm_gate",
+      "neural_nmse": 0.4216641745267113,
+      "fixed_jakes_nmse": 0.37366297826693623,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 4,
+      "snr_db": 5,
+      "lowest_mean_neural_nmse_method": "raw_lstm_gate",
+      "neural_nmse": 0.19206177776550873,
+      "fixed_jakes_nmse": 0.17769116928207343,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 4,
+      "snr_db": 10,
+      "lowest_mean_neural_nmse_method": "raw_lstm_gate",
+      "neural_nmse": 0.07467729527817195,
+      "fixed_jakes_nmse": 0.07085495814908364,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 4,
+      "snr_db": 15,
+      "lowest_mean_neural_nmse_method": "lsres_gate",
+      "neural_nmse": 0.02917813001222255,
+      "fixed_jakes_nmse": 0.02550682403536158,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 4,
+      "snr_db": 20,
+      "lowest_mean_neural_nmse_method": "lsres_gate",
+      "neural_nmse": 0.009843667176420483,
+      "fixed_jakes_nmse": 0.008741733964414996,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 4,
+      "snr_db": 25,
+      "lowest_mean_neural_nmse_method": "lsres_gate",
+      "neural_nmse": 0.003156636728241461,
+      "fixed_jakes_nmse": 0.002933294122392705,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    },
+    {
+      "n": 4,
+      "snr_db": 30,
+      "lowest_mean_neural_nmse_method": "lsres_gate",
+      "neural_nmse": 0.0009998347202763247,
+      "fixed_jakes_nmse": 0.000957918006105116,
+      "lowest_neural_mean_beats_fixed_jakes": false,
+      "label": "descriptive comparison only; not test-selected deployment model"
+    }
+  ],
+  "interpretation": "No acceptance decision. Model improvements and mechanisms require the actual paired evidence."
+}
