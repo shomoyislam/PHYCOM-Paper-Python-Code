@@ -1,0 +1,10 @@
+# Keep Kaggle's installed torch, numpy, scipy and matplotlib.
+# Run bootstrap.py to select matching official CUDA wheels and protect the core stack.
+# This file documents the scientific dependencies; it is not an instruction to upgrade them.
+numpy
+scipy
+matplotlib
+torch
+# Official CUDA implementation, installed by bootstrap.py:
+# mamba-ssm==2.3.2.post1
+# causal-conv1d==1.6.2.post1
