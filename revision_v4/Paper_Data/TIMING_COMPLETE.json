@@ -1,0 +1,9 @@
+{
+  "run_id": "2c9a7bc7073a1db1c0c5dec4e8285ce09847aa04a4858aa1da24d7fca458bd89",
+  "isolated_workers_stopped": true,
+  "rows": 312,
+  "scope": "Synchronized wall latency; resident inputs and outputs; no host transfer, pilot despreading or SNR acquisition",
+  "input": "Identical T-window shapes at 15 dB; model weights from first predeclared seed",
+  "overhead": "Includes Python dispatch and synchronization; LS includes output copy",
+  "hardware_comparison": "Measurements on this device only; do not infer deployment or two-GPU inference speedup"
+}

@@ -1,0 +1,3722 @@
+[
+  {
+    "family": "iid",
+    "n": 2,
+    "seed": 31001,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "resgate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "film_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "concat_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "film",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "resgate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "concat",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 3,
+    "seed": 31001,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 4,
+    "seed": 31001,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "resgate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "film_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "concat_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "film",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "resgate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "concat",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 2,
+    "seed": 31013,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "resgate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "film_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "concat_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "film",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "resgate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "concat",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 3,
+    "seed": 31013,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 4,
+    "seed": 31013,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "resgate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "film_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "concat_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "film",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "resgate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "concat",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 2,
+    "seed": 31019,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "resgate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "film_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "concat_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "film",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "resgate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "concat",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 3,
+    "seed": 31019,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 4,
+    "seed": 31019,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "resgate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "film_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "concat_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "film",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "resgate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "concat",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 2,
+    "seed": 31033,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "resgate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "film_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "concat_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "film",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "resgate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "concat",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 3,
+    "seed": 31033,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 4,
+    "seed": 31033,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "resgate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "film_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "concat_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "film",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "resgate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "concat",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 2,
+    "seed": 31039,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "resgate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "film_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "concat_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "film",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "resgate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "concat",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 3,
+    "seed": 31039,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 4,
+    "seed": 31039,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "resgate_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "film_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "concat_identity",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "film",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "resgate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "concat",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 2,
+    "seed": 31051,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": true
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 3,
+    "seed": 31051,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 4,
+    "seed": 31051,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 2,
+    "seed": 31063,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": true
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 3,
+    "seed": 31063,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 4,
+    "seed": 31063,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 2,
+    "seed": 31069,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": true
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 3,
+    "seed": 31069,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 4,
+    "seed": 31069,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 2,
+    "seed": 31079,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": true
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 3,
+    "seed": 31079,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 4,
+    "seed": 31079,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 2,
+    "seed": 31081,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 16,
+        "condition": "gate",
+        "residual": true
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 3,
+    "seed": 31081,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 18,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "iid",
+    "n": 4,
+    "seed": 31081,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": true
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 32,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 64,
+        "hidden": 64,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 32,
+        "hidden": 32,
+        "head": 64,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 44,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "spatial",
+    "n": 4,
+    "seed": 31001,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "unknown_stats",
+    "n": 4,
+    "seed": 31001,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "spatial",
+    "n": 4,
+    "seed": 31013,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "unknown_stats",
+    "n": 4,
+    "seed": 31013,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "spatial",
+    "n": 4,
+    "seed": 31019,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "unknown_stats",
+    "n": 4,
+    "seed": 31019,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "spatial",
+    "n": 4,
+    "seed": 31033,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "unknown_stats",
+    "n": 4,
+    "seed": 31033,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "spatial",
+    "n": 4,
+    "seed": 31039,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  },
+  {
+    "family": "unknown_stats",
+    "n": 4,
+    "seed": 31039,
+    "models": [
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "cnn",
+        "projection": 128,
+        "hidden": 128,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "none",
+        "residual": false
+      },
+      {
+        "encoder": "raw",
+        "projection": 0,
+        "hidden": 176,
+        "head": 32,
+        "condition": "gate",
+        "residual": false
+      }
+    ]
+  }
+]

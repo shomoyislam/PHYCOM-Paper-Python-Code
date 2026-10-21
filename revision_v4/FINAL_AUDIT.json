@@ -1,0 +1,18 @@
+{
+  "run_id": "2c9a7bc7073a1db1c0c5dec4e8285ce09847aa04a4858aa1da24d7fca458bd89",
+  "complete": true,
+  "confirmation_complete": true,
+  "timing_complete": true,
+  "mode": "publication",
+  "expected_fits": 430,
+  "completed_fits": 430,
+  "metric_rows": 43000,
+  "paired_rows": 11586,
+  "primary_tests": 12,
+  "epoch_cap_fits": 26,
+  "capped_with_recent_gain_above_threshold": 1,
+  "max_residual_identity_error": 4.440892098500626e-16,
+  "raw_hashes_verified": true,
+  "convergence_not_proven": true,
+  "scientific_superiority_not_assumed": true
+}

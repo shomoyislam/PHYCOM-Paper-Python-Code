@@ -1,0 +1,7 @@
+# Kaggle: use the installed GPU PyTorch build. Do not pip-upgrade/downgrade torch.
+# For a separate CPU environment, install the appropriate official PyTorch wheel first.
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+torch>=2.2

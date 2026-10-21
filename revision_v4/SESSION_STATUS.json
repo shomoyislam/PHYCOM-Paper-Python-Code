@@ -1,0 +1,11 @@
+{
+  "started_utc": "2026-10-20T03:18:11Z",
+  "wall_seconds": 33307.103816747665,
+  "status": "complete",
+  "workers": [
+    "0",
+    "1"
+  ],
+  "restored_from": "/kaggle/input/datasets/shomoybd/resume",
+  "error": null
+}

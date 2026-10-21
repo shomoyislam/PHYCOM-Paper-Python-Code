@@ -1,0 +1,18 @@
+{
+  "revision": "V4.0 R1",
+  "manuscript": "PHYCOM-D-26-02646",
+  "submitted": "2026-09-16",
+  "prepared": "2026-10-19",
+  "repository_reference": "https://github.com/shomoyislam/PHYCOM-Paper-Python-Code",
+  "inputs": {
+    "PHYCOM_V3_2_GITHUB_PACKAGE.zip": "bb1d5f2aad44c6983f901ce1443bd414aa81e461aa52f096c3e2543b90e48743",
+    "PHYCOM_V3_2_KAGGLE_FINAL.ipynb": "088a8b16c36dbf072d767087d5316dd7531dd606094f2a372b4803afa60457be",
+    "PHYCOM_SUBMISSION_LATEX_2026_09_16.zip": "7492aed6fd8516fa9c9e8318c1629af1039ea36cf77f0a841e601a9bf86b8100",
+    "PHYCOM-D-26-02646-reviews.pdf": "7a72b037fd1efc84a57ac81f8b16983145e8c69d1492d6f0427d1c78034d92cb"
+  },
+  "legacy_simulation_sha256": "7ffdfbe923feca936089bf46e6af49ddd754b0aea197a4ab171a702117fdfdd0",
+  "legacy_models_sha256": "6dd2a6a9b44aae144f14101b3888cb2c14012753c5341b297f30e5be10545a3a",
+  "scope": "Focused new LSTM revision experiments, plus an unchanged V3.2 code reference copy. No old raw checkpoint archive was recovered for this deliverable. Fresh V4 jobs do not consume old checkpoints.",
+  "reviewer_report_included": false,
+  "publication_results_generated": false
+}
