@@ -1,84 +1,156 @@
-# PHYCOM V3.2 — controlled confirmation study
+# Feature-Wise SNR Conditioning for Jakes-Fading MIMO Channel Estimation
 
-A self-contained Kaggle experiment for feature-wise nominal-SNR conditioning in time-varying MIMO channel estimation. This revision builds on the user's audited V3.1 run and produces new evidence for writing the manuscript. It does not promise a particular ranking or journal acceptance.
+Code, experimental results, and reproducibility records for:
 
-## Kaggle: one Run All
+**Feature-Wise SNR Conditioning for Jakes-Fading MIMO Channel Estimation: Controlled Benefits and Architectural Limits**
 
-1. Import `PHYCOM_V3_2_KAGGLE_FINAL.ipynb` into a fresh Kaggle notebook.
-2. Select **GPU T4 ×2** and enable **Internet**. Keep the default notebook settings for the full experiment.
-3. Optional: attach your own `PHYCOM_V3_1_PUBLICATION_RESULTS (1).zip` as a Kaggle input. The notebook detects the audited run and, when its numerical runtime matches, reuses its 93 trained states. With no compatible archive, it trains from scratch.
-4. Choose **Run All**. The project code is embedded in the notebook; no separate code upload is needed.
-5. Download `PHYCOM_V3_2_PUBLICATION_RESULTS.zip`. Start with `Paper_Data/RESULTS_SUMMARY.md`, `convergence.csv`, and `FINAL_AUDIT.json`.
+**Journal:** Physical Communication  
+**Original submission:** September 16, 2026
 
-The installer targets your successful Python 3.12 / PyTorch 2.10.0+cu128 / CUDA 12.8 T4 environment. It retains official Mamba-1 from `mamba-ssm==2.3.2.post1` and `causal-conv1d==1.6.2.post1`, with checked official binary wheels. It protects the existing core numerical stack and performs CUDA forward/backward and actual estimator optimizer-resume checks before training.
+## Start here
 
-The complete default experiment contains **129 fits**, up to **240 total epochs** each, with validation patience 10. It can take several hours. The run pauses at a safe boundary after a default 10.5-hour invocation budget, leaving time to create a partial archive; completion within one Kaggle session is not guaranteed. Set the budget lower if the current session is already old. Checkpoints are committed each epoch. An abrupt Kaggle shutdown cannot be recovered unless the outputs were retained or downloaded.
+**The completed major-revision experiments are in [revision_v4/](revision_v4/).**
 
-## What changed
+- [V4 README and reproduction instructions](revision_v4/README.md)
+- [V4 results summary](revision_v4/Paper_Data/RESULTS_SUMMARY.md)
+- [V4 result tables](revision_v4/Paper_Data/)
+- [V4 figures](revision_v4/Figures/)
+- [V4 source code](revision_v4/source/)
+- [V4 experimental protocol](revision_v4/source/PROTOCOL.md)
+- [Reviewer-to-experiment map](revision_v4/source/REVIEWER_MAP.md)
+- [V4 completion audit](revision_v4/FINAL_AUDIT.json)
 
-- All original 13 main models are retained for both 2×2 and 4×4 arrays and seeds 42, 123, 2024: **78 fits**.
-- The CNN–LSTM head is widened from 32 to 64 units for 4×4 only, with otherwise identical gated and ungated designs: **6 additional fits**. ReLU, temporal width, data, optimizer and shared component initialization remain matched.
-- All five sequence windows, T = 3, 5, 10, 15, 20, now use three seeds for LSTM-gate, official Mamba-gate and LS-residual-gate: **45 fits**. Each uses 40,000/8,000 training/validation samples and the same stopping policy. Sequence accuracy is evaluated at 15 dB.
-- The best validation checkpoint within the original 60-epoch budget is saved separately from the extended best checkpoint. Both are evaluated on the same fresh test set for main experiments.
-- Gated and ungated LSTM, Mamba and LS-residual estimators receive the same temporal, spatial and SNR-side-information stress tests. The wide-head pair is included too.
-- An additional Jakes baseline uses the same erroneous reported SNR in side-information tests. True-SNR classical references are explicitly identified in raw rows.
-- Training for all models finishes and checkpoint hashes are frozen **before** confirmation data is generated. No model is selected using test NMSE, BER, rate or stress results.
-- Classical estimates are simulated once per array/window. Their Monte Carlo uncertainty is not represented as zero training-seed variability.
-- Separate paired Monte Carlo and training-seed intervals, convergence diagnostics, observed head-activity diagnostics and raw-statistic audits are exported.
+## Versions and repository layout
 
-## Resume and provenance
+| Version | Purpose | Location |
+|---|---|---|
+| V3.2 | Original submitted study and its reproducibility record | Root-level `Paper_Data/`, `Figures/`, `source/`, JSON records, and `PHYCOM_V3_2_CODE/` |
+| V4 | Additional experiments conducted for the major revision | `revision_v4/` |
 
-To continue an interrupted **V3.2** session, attach its `_PARTIAL.zip` to a new Kaggle notebook and set `RESUME_ARCHIVE` to that input path. The same notebook restores the archive and checks code, configuration and numerical-runtime identity. An existing matching output directory resumes automatically. Do not put a V3.1 ZIP in `RESUME_ARCHIVE`; the `PARENT_V31` setting handles that separate migration.
+The original V3.2 files are retained. V4 is a separately identified study with fresh training/data seeds and a frozen confirmation protocol. Do not combine tables from different versions without explicitly identifying their origin.
 
-V3.1 is opened read-only. Compatible old model, optimizer, scheduler, training history and random-number states are imported under an explicitly new run identity. Parent run and checkpoint hashes are retained. Completed early stopping remains respected. Original test results are not mixed into confirmation summaries. New wide-head models and extra sequence seeds start from scratch. An incompatible optional parent runtime triggers a fresh run, recorded in the manifest; an incompatible V3.2 resume is rejected.
+V4 concentrates on CNN–LSTM and raw-LSTM controls. Earlier Mamba, GRU, sequence-window, and other V3.2 experiments were not all retrained in V4.
 
-If a central fit remains at the epoch cap with improving validation loss, the report flags it. The notebook does not silently reset patience, search new hyperparameters, select a lucky seed or hide a stronger classical baseline.
+## V4 experiment status
 
-## GitHub / command line
+The recorded publication run completed on October 20, 2026 (UTC):
 
-The notebook extracts the same readable project contained in the companion ZIP. Upload the source files, tests, documentation and notebook to your repository. Large results and checkpoints can be distributed separately; `.gitignore` excludes generated output, CUDA wheel caches and credentials.
+| Item | Recorded result |
+|---|---:|
+| Completed / planned fits | 430 / 430 |
+| Central independent training/data seeds | 10 |
+| Supplementary seeds | 5 |
+| Metric rows | 43,000 |
+| Paired-comparison rows | 11,586 |
+| Primary statistical tests | 12 |
+| Confirmation evaluation | Complete |
+| Timing evaluation | Complete |
 
-```bash
-# Full experiment (two GPUs used when present)
-python run_phycom.py --output /kaggle/working/PHYCOM_V3_2_PUBLICATION
+The final session records no error. The authoritative configuration, environment, and run identity are available in [config.json](revision_v4/config.json), [RUN_MANIFEST.json](revision_v4/RUN_MANIFEST.json), and [SESSION_STATUS.json](revision_v4/SESSION_STATUS.json).
 
-# Optional audited parent archive
-python run_phycom.py --parent '/path/to/PHYCOM_V3_1_PUBLICATION_RESULTS (1).zip' --output new_run
+Run ID:
 
-# Restore a matching V3.2 run
-python run_phycom.py --resume '/path/to/PHYCOM_V3_2_PUBLICATION_PARTIAL.zip' --output restored_run
-
-# Small CPU diagnostic; NOT manuscript results
-python run_phycom.py --smoke --no-mamba --parent none --session-hours 0 --output smoke_output
-
-# Mathematical, installer and checkpoint tests
-python -m unittest discover -s tests -v
+```text
+2c9a7bc7073a1db1c0c5dec4e8285ce09847aa04a4858aa1da24d7fca458bd89
 ```
 
-Normal full mode requires official CUDA Mamba. There is no alternative model silently substituted if Mamba installation fails. `--skip-setup` skips installation but keeps full-mode CUDA checks. Dependencies are installed into the running Python executable used by the notebook.
+Completion refers to the scheduled computations. It does not establish convergence of every fit or universal superiority over classical estimators.
 
-## Output map
+## What V4 evaluates
 
-| File or folder | Use |
+- Matched gated/ungated CNN–LSTM and raw-LSTM comparisons for 2×2, 3×3, and 4×4 channels.
+- Separate projection-width, recurrent-width, and output-head controls.
+- Conditioning initialization controls and LS-residual estimators.
+- LS, matched-statistics LMMSE, and empirical LMMSE baselines.
+- Synthetic spatial correlation and unknown or held-out channel statistics.
+- SNR reporting errors, clipping, extrapolation, and calibration overhead.
+- Representation spectra, paired statistical comparisons, convergence summaries, and isolated timing.
+
+See the [protocol](revision_v4/source/PROTOCOL.md) for definitions and the [results summary](revision_v4/Paper_Data/RESULTS_SUMMARY.md) for measured outcomes. Favorable, adverse, and null results are retained.
+
+## Reading the data
+
+V4 tables are in [revision_v4/Paper_Data/](revision_v4/Paper_Data/). The main files are:
+
+| File | Use |
 |---|---|
-| `Paper_Data/RESULTS_SUMMARY.md` | Computed results and manuscript interpretation |
-| `Paper_Data/summary_mean_std.csv` | All main, stress and sequence summaries |
-| `Paper_Data/paired_comparisons.csv` | Gating, head width and training-extension contrasts |
-| `Paper_Data/convergence.csv` | Selected epochs, stopping reason and recent validation gains |
-| `Paper_Data/head_diagnostics.csv` | Observed inactive head units and output-span diagnostics |
-| `Paper_Data/complexity.csv`, `latency_vs_T.csv` | Isolated timing and explicitly approximate arithmetic counts |
-| `Paper_Data/nmse_*.tex` | Compact computed LaTeX tables at 0, 15, 30 dB |
-| `Figures/` | PDF and PNG plots, plus caption guidance |
-| `jobs/` | Best, 60-epoch-reference and resumable checkpoints; raw block statistics |
-| `frozen_selection.json` | Validation-selected checkpoint hashes recorded before testing |
-| `FINAL_AUDIT.json` | Completeness and recomputation checks; not scientific acceptance |
-| `source/`, `requirements_frozen.txt`, `run_manifest.json` | Exact code, installed environment and run identity |
+| `summary_mean_std.csv` | Mean NMSE and variation across seeds |
+| `metrics_per_seed.csv` | Individual seed/case/method results |
+| `paired_comparisons.csv` | Matched effects and statistical comparisons |
+| `convergence.csv` | Training budget, validation selection, and stopping summaries |
+| `representation_diagnostics.csv` | Rank and conditioning diagnostics |
+| `reporting_errors_paired.csv` | Paired effects of SNR reporting errors |
+| `evaluation_coverage.csv` | SNR coverage and extrapolation information |
+| `latency.csv` | Isolated inference timing |
+| `covariance_fitting_cost.csv` | Empirical covariance estimation cost |
+| `linear_filter_setup_cost.csv` | Linear-filter setup cost |
 
-See `METHODS.md` for mathematical conventions and `TEST_REPORT.md` for the scope of local verification.
+### Compressed singular-value spectra
 
-## Primary implementation references
+The full spectra table is stored in [singular_value_spectra.zip](revision_v4/Paper_Data/singular_value_spectra.zip).
 
-- [Official Mamba 2.3.2.post1 release](https://github.com/state-spaces/mamba/releases/tag/v2.3.2.post1)
-- [Official causal-conv1d 1.6.2.post1 release](https://github.com/Dao-AILab/causal-conv1d/releases/tag/v1.6.2.post1)
-- [PyTorch 2.10 optimizer-state loading](https://docs.pytorch.org/docs/2.10/generated/torch.optim.Optimizer.load_state_dict.html)
-- [PyTorch 2.10 checkpoint serialization](https://docs.pytorch.org/docs/2.10/notes/serialization.html)
+**Extract that ZIP into `revision_v4/Paper_Data/` before using the spectra data.** The resulting path should be:
+
+```text
+revision_v4/Paper_Data/singular_value_spectra.csv
+```
+
+Compression changes only storage; the underlying CSV is preserved.
+
+## Reproducing V4
+
+Read [revision_v4/README.md](revision_v4/README.md) and [source/PROTOCOL.md](revision_v4/source/PROTOCOL.md) before running experiments. Existing result tables and figures can be inspected without retraining.
+
+With the required Python/PyTorch environment, run from the repository root:
+
+```bash
+cd revision_v4/source
+python -m unittest discover -s tests -v
+python run_revision.py --plan-only
+python run_revision.py --preflight-only --devices 0,1
+python run_revision.py --devices 0,1 --output /kaggle/working/PHYCOM_V4_RUN --hours 10
+```
+
+The completed study used two independent Tesla T4 workers. Its recorded environment includes Python 3.13.15, PyTorch 2.11.0+cu128, CUDA 12.8, NumPy 2.1.3, SciPy 1.16.3, pandas 2.3.3, and Matplotlib 3.10.0. Use the [run manifest](revision_v4/RUN_MANIFEST.json) for the complete record.
+
+The ten-hour argument is a session work budget, not a guaranteed completion time. Read the source README for checkpoint/resume instructions. Smoke-test outputs are diagnostic and must not be used as research evidence.
+
+## Original V3.2 study
+
+The original study remains available through:
+
+- [V3.2 Kaggle notebook](PHYCOM_V3_2_KAGGLE_FINAL.ipynb)
+- [V3.2 source and run instructions](PHYCOM_V3_2_CODE/README.md)
+- [V3.2 mathematical conventions](PHYCOM_V3_2_CODE/METHODS.md)
+- [V3.2 validation report](PHYCOM_V3_2_CODE/TEST_REPORT.md)
+- [Original result tables](Paper_Data/)
+- [Original figures](Figures/)
+- [Original audit](FINAL_AUDIT.json)
+- [Original environment record](requirements_frozen.txt)
+
+The V3.2 notebook targets its own recorded environment and includes official Mamba dependencies. Its resume archives and settings are different from V4. Use the instructions for the intended version.
+
+## Interpretation and limitations
+
+- Primary V4 inference uses paired two-sided sign tests with Holm correction across 12 comparisons. Supplementary five-seed studies are exploratory.
+- Model selection was frozen before confirmation evaluation. Later tuning requires a separately documented analysis; previously inspected confirmation data cannot be described as untouched.
+- Twenty-six V4 fits reached the 240-epoch cap. One 4×4 ungated raw-LSTM fit (seed 31079) showed approximately 1.58% recent validation improvement. These are results under a specified training budget; full convergence is not established.
+- Synthetic channel simulations do not establish measured-channel or massive-MIMO performance.
+- Calibration-based SNR estimation uses additional observations. The rate proxy omits some acquisition and training overhead.
+- Inference timing must be interpreted alongside batch size, hardware, covariance estimation, and filter setup costs.
+- Any longer-budget follow-up should preserve the original V4 results and be identified separately.
+
+## Raw outputs and checkpoints
+
+The large `PHYCOM_V4_PUBLICATION_RESUME.zip` is retained separately as a backup. It contains training histories, model/optimizer checkpoints, and raw evaluation arrays. Those files are not part of this smaller GitHub review package.
+
+The audit's raw-hash verification records checks performed during the original run. The review package does not include the raw arrays needed to independently repeat those hash checks.
+
+## Referencing this repository
+
+When referring to these materials, identify the manuscript title, experiment version (V3.2 or V4), and the exact repository commit or release used. Do not describe this revision package as an accepted publication or invent a DOI.
+
+Repository: https://github.com/shomoyislam/PHYCOM-Paper-Python-Code
+
+Consult the repository's license file, if present, for reuse terms. This README does not grant an additional license.
+
