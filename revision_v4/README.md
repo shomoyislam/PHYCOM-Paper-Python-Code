@@ -1,11 +1,9 @@
 # V4 revision experiments: SNR-conditioned MIMO channel estimation
 
-This folder contains the completed V4 experiment outputs and source code for the major revision of manuscript **PHYCOM-D-26-02646**:
+This folder contains the completed V4 experiment outputs and source code supporting the major revision of the paper:
 
 **Feature-Wise SNR Conditioning for Jakes-Fading MIMO Channel Estimation: Controlled Benefits and Architectural Limits**
 
-Authors: Md Shaikhul Islam Shomoy and Ziqiang Hao  
-Corresponding author: shomoyislampabna@gmail.com  
 Repository: https://github.com/shomoyislam/PHYCOM-Paper-Python-Code
 
 ## Relationship to the submitted manuscript
@@ -136,7 +134,7 @@ The notebook embeds its source; modifying `source/` alone does not update the em
 
 This review package contains source code and processed results. The large `PHYCOM_V4_PUBLICATION_RESUME.zip` is retained separately as a backup and is not included in this folder. It contains model checkpoints, optimizer states, detailed training histories, and raw evaluation arrays.
 
-The `raw_hashes_verified` audit field records a check performed during the original run; this smaller review package does not contain those raw arrays for independent rechecking. Contact the corresponding author about access to additional artifacts.
+The `raw_hashes_verified` audit field records a check performed during the original run; this smaller review package does not contain those raw arrays for independent rechecking. The full resume archive is retained separately from this review package.
 
 ## Version and citation information
 
